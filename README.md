@@ -6,7 +6,7 @@
 |---|---|
 | **Duración** | 30 min (mínimo) – 45 min (máximo) |
 | **Formato** | Explicación breve + demostración en vivo |
-| **Nivel** | Básico, sin conocimientos previos |
+| **Nivel** | Básico |
 | **Requisitos** | Cuenta corporativa de Office 365 y acceso a OneDrive |
 
 ---
@@ -41,7 +41,6 @@
 | Cierre | Resumen y preguntas | 2 min |
 | | **Total** | **≈ 41 min** |
 
-> Si falta tiempo, acortar 1.3 y 1.4 (demo rápida). Si sobra, ampliar 1.1 con más ejemplos.
 
 ---
 
