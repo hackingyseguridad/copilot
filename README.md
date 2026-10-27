@@ -37,7 +37,7 @@
 | 1.2 | Prompts reutilizables | 5 min |
 | 1.3 | SKILL.md / AGENTS.md | 7 min |
 | 1.4 | Plantilla de informe | 5 min |
-| 2 | Seguridad y revisión de resultados | 8 min |
+| 2.0 | Seguridad y revisión de resultados | 8 min |
 | Cierre | Resumen y preguntas | 2 min |
 | | **Total** | **≈ 41 min** |
 
