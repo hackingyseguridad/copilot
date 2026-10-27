@@ -166,7 +166,7 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 
 ### Resumen final
 
-1. Cargar el fichero desde OneDrive.
+1. Cargar el fichero desde OneDrive (carpeta /home).
 2. Pedir con un prompt claro: rol, tarea, contexto y formato.
 3. Reutilizar prompts, `SKILL.md` y plantillas.
 4. Usar solo herramientas autorizadas y respetar la clasificación de la información.
