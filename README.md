@@ -44,6 +44,11 @@
 
 ---
 
+### Introduccion:
+
+**Microsoft 365 Copilot básico (sin licencia):** permite utilizar inteligencia artificial para realizar tareas habituales de oficina, como responder preguntas, resolver dudas, explicar conceptos, buscar información, redactar, corregir y traducir textos, resumir documentos, analizar archivos Word, Excel, PDF y PowerPoint (cuando esté habilitado), extraer información, generar informes, tablas, conclusiones y recomendaciones, utilizar prompts e instrucciones reutilizables para estandarizar tareas y formatos de respuesta, así como comparar documentos, identificar diferencias y extraer los puntos más relevantes.
+
+
 ### 1. Trabajar con archivos en Copilot
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
