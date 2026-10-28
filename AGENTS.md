@@ -1,5 +1,5 @@
-# CLAUDE.md
-Directrices de comportamiento para Claude Code en entorno Kali Linux de pentesting.
+# AGENTS.md
+Directrices de comportamiento para Copilot en entorno de pruebas de hacking con  Kali Linux .
 
 ## Idioma predeterminado: Español de España (castellano)
 
