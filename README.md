@@ -2,7 +2,7 @@
 
 > Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**.
 
-<img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png" style="margin-bottom: 10px;">
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png">
 
 #
 
