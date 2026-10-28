@@ -92,7 +92,7 @@ en un máximo de [LONGITUD] palabras, con un tono formal y sin tecnicismos.
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
 
 - Qué es un `SKILL.md`: instrucciones paso a paso para una tarea concreta.
-- Qué es un `AGENTS.md`: reglas generales y comportamiento esperado del asistente.
+- Qué es un `AGENTS.md`: premisas, reglas generales y comportamiento esperado del asistente.
 - Cómo usarlos en Copilot sin licencia PRO: adjuntar el fichero y pedir que siga sus instrucciones.
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
