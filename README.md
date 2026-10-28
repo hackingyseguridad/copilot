@@ -2,18 +2,9 @@
 
 > Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**.
 
-| | |
-|---|---|
-| **Duración** | 30 min (mínimo) – 45 min (máximo) |
-| **Formato** | Explicación breve + demostración  |
-| **Nivel** | Básico |
-| **Requisitos** | Cuenta corporativa de Office 365 y acceso a OneDrive |
-
----
-
 <img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png" style="margin-bottom: 10px;">
 
----
+#
 
 ### Índice
 
