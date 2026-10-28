@@ -11,7 +11,7 @@
 
 ---
 
-<img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/ia/blob/main/copilot.png" style="margin-bottom: 20px;">
+<img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png" style="margin-bottom: 20px;">
 
 
 ### Índice
