@@ -5,11 +5,14 @@
 | | |
 |---|---|
 | **Duración** | 30 min (mínimo) – 45 min (máximo) |
-| **Formato** | Explicación breve + demostración en vivo |
+| **Formato** | Explicación breve + demostración  |
 | **Nivel** | Básico |
 | **Requisitos** | Cuenta corporativa de Office 365 y acceso a OneDrive |
 
 ---
+
+<img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/ia/blob/main/copilot.png" style="margin-bottom: 20px;">
+
 
 ### Índice
 
