@@ -97,7 +97,7 @@ en un máximo de [LONGITUD] palabras, con un tono formal y sin tecnicismos.
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
 ```text
-Lee el fichero SKILL.md adjunto y aplica sus instrucciones al documento [DOCUMENTO].
+Lee el fichero SKILL.doc adjunto y aplica sus instrucciones al documento [DOCUMENTO].
 Entrega el resultado con el formato de informe indicado.
 ```
 
