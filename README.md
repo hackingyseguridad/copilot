@@ -46,7 +46,7 @@
 
 **Microsoft 365 Copilot básico o corporativo con las funciones habilitadas por la empresa (sin licencia):** permite utilizar inteligencia artificial para realizar tareas habituales de oficina, como responder preguntas, resolver dudas, explicar conceptos, buscar información, redactar, corregir y traducir textos, resumir documentos, analizar archivos Word, Excel, PDF y PowerPoint (cuando esté habilitado), extraer información, generar informes, tablas, conclusiones y recomendaciones, utilizar prompts e instrucciones reutilizables para estandarizar tareas y formatos de respuesta, así como comparar documentos, identificar diferencias y extraer los puntos más relevantes.
 
-Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, como AGENTS.md (convención abierta para definir instrucciones de trabajo dirigidas a agentes de IA), SKILL.md (convención para describir habilidades o procedimientos específicos). Aunque Copilot básico no interpreta estos archivos automáticamente como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones. Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.md con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.md y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
+Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, como AGENTS.doc (convención abierta para definir instrucciones de trabajo dirigidas a agentes de IA), SKILL.doc (convención para describir habilidades o procedimientos específicos). Aunque Copilot básico no interpreta estos archivos automáticamente como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones. Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.md con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.md y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
 ### 1. Trabajar con archivos en Copilot
 
@@ -91,8 +91,8 @@ en un máximo de [LONGITUD] palabras, con un tono formal y sin tecnicismos.
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
 
-- Qué es un `SKILL.md`: instrucciones paso a paso para una tarea concreta.
-- Qué es un `AGENTS.md`: premisas, reglas generales y comportamiento esperado del asistente.
+- Qué es un `SKILL.doc`: instrucciones paso a paso para una tarea concreta.
+- Qué es un `AGENTS.doc`: premisas, reglas generales y comportamiento esperado del asistente.
 - Cómo usarlos en Copilot sin licencia PRO: adjuntar el fichero y pedir que siga sus instrucciones.
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
@@ -101,7 +101,7 @@ Lee el fichero SKILL.md adjunto y aplica sus instrucciones al documento [DOCUMEN
 Entrega el resultado con el formato de informe indicado.
 ```
 
-- **Demo:** un `SKILL.md` sencillo que realiza varias tareas y genera un informe.
+- **Demo:** un `SKILL.doc` sencillo que realiza varias tareas y genera un informe.
 
 ### 1.4 Plantilla de instrucciones para obtener un informe / formato de documento
 
