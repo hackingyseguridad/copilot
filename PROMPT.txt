@@ -1,4 +1,4 @@
-Instrucción Copilot IA ( PROMPTs ):
+Instrucción Copilot IA ( PROMPTs reutilizables ):
 
 SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
 
