@@ -1,6 +1,7 @@
 #!/bin/bash
 # cve2026.sh - lista los CVE de las vulnerabilidades 2026 con gravedad ALTA y CRITICA (NVD)
 # Compatible con Bash 1.x. Requiere: curl, jq
+# hackingyseguridad.com 
 
 API="https://services.nvd.nist.gov/rest/json/cves/2.0"
 
