@@ -10,4 +10,6 @@ Vuln:  Lista las vulnerabilidades CVE criticas, publicadas en las ultimas 48h, d
 
 Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
 
+pdf: analiza y resume muy mucho este documento pdf y genera un resumen, en un parrafo breve muy breve.
+
 Report: informe profesional de pruebas de penetración con resúmen ejecutivo, puntuación CVSS y planes de reparos, usa el fichero 
