@@ -1,5 +1,7 @@
 Instrucción Copilot IA ( PROMPTs reutilizables ):
 
+Modelo: que  modelo de IA eres?
+
 SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
 
 SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
