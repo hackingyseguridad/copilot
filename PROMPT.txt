@@ -8,6 +8,6 @@ SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Pyt
 
 Vuln:  Lista las vulnerabilidades CVE criticas, publicadas en las ultimas 48h, de gran impacto y repercusion , cada una en una linea/parrafo, resumen muy muy breve
 
-
+Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
 
 Report: informe profesional de pruebas de penetración con resúmen ejecutivo, puntuación CVSS y planes de reparos, usa el fichero 
