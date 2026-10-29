@@ -1,0 +1,5 @@
+Instrucción IA ( PROMPT ):
+
+SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) puedes ver ?
+SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
+SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...), Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts para explotar vulnerabilidades (Exploits) ?
