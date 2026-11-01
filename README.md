@@ -67,7 +67,7 @@ Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve
 ```
 
 ```text
-Extrae del Excel adjunto las 10 filas con mayor importe y preséntalas en una tabla.
+Excel: filtra solo las vulnerabilidades para SSH en el 2026 de gravedad: alta o critica;
 ```
 
 ```text
