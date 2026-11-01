@@ -74,8 +74,6 @@ Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Ge
 pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para HTTPS.
 ```
 
-- **Demo:** mismo fichero, tres prompts distintos (resumen, extracción, análisis).
-
 ### 1.2 Prompts e instrucciones reutilizables
 
 - Guardar los prompts que funcionan en un fichero propio (`prompts.md`) para reutilizarlos.
