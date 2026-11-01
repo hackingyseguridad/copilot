@@ -63,7 +63,7 @@ Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, co
 Estructura recomendada de un buen prompt: **rol + tarea + contexto + formato de salida**.
 
 ```text
-Resume el documento adjunto en 5 puntos clave para un directivo.
+Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
 ```
 
 ```text
