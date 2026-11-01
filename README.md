@@ -76,16 +76,13 @@ pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolo
 
 ### 1.2 Prompts e instrucciones reutilizables
 
-- Guardar los prompts que funcionan en un fichero propio (`prompts.md`) para reutilizarlos.
-- Usar marcadores sustituibles: `[DOCUMENTO]`, `[AUDIENCIA]`, `[LONGITUD]`.
+- Guardar los prompts que funcionan en un fichero propio (`PROMPT.txt`) para reutilizarlos.
+- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`.
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 ```text
-Actúa como analista. Con el documento [DOCUMENTO], redacta un resumen para [AUDIENCIA]
-en un máximo de [LONGITUD] palabras, con un tono formal y sin tecnicismos.
+Actúa como analista. Con el documento [PROMPTS], redacta un resumen para [WORD]
 ```
-
-- **Demo:** reutilizar un mismo prompt con dos documentos diferentes.
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
 
