@@ -92,11 +92,9 @@ Copia y reutiliza en Copilot, el PROMTP necesario
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
 ```text
-Lee el fichero SKILL.doc adjunto y aplica para esta sesión sus instrucciones ahi descritas.
-Entrega el resultado con el formato de informe indicado.
+Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones ahi descritas.
+Lee el fichero SKILL.doc adjunto y entrega el informa resultado con el formato de informe indicado.
 ```
-
-- **Demo:** un `SKILL.doc` sencillo que realiza varias tareas y genera un informe.
 
 ### 1.4 Plantilla de instrucciones para obtener un informe / formato de documento
 
