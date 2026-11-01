@@ -81,7 +81,7 @@ pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolo
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 ```text
-Actúa como analista. Con el documento [PROMPTS], redacta un resumen para [WORD]
+Copia y usa en Copilo, el PROMTP que necesites
 ```
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
@@ -92,7 +92,7 @@ Actúa como analista. Con el documento [PROMPTS], redacta un resumen para [WORD]
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
 ```text
-Lee el fichero SKILL.doc adjunto y aplica sus instrucciones al documento [DOCUMENTO].
+Lee el fichero SKILL.doc adjunto y aplica para esta sesión sus instrucciones ahi descritas.
 Entrega el resultado con el formato de informe indicado.
 ```
 
