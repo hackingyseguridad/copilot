@@ -71,7 +71,7 @@ Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Ge
 ```
 
 ```text
-pdf: Analiza el informe Extrae y haz una tabla como resumen e
+pdf: haz un resumen, crea una tabla resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para https.
 ```
 
 - **Demo:** mismo fichero, tres prompts distintos (resumen, extracción, análisis).
