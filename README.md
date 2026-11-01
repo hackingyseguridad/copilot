@@ -77,11 +77,11 @@ pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolo
 ### 1.2 Prompts e instrucciones reutilizables
 
 - Guardar los prompts que funcionan en un fichero propio (`PROMPT.txt`) para reutilizarlos.
-- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`.
+- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`..
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 ```text
-Copia y usa en Copilo, el PROMTP que necesites
+Copia y reutiliza en Copilot, el PROMTP necesario 
 ```
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
