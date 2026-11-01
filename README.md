@@ -67,11 +67,11 @@ Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve
 ```
 
 ```text
-Excel: filtra solo las vulnerabilidades para SSH en el 2026 de gravedad: alta o critica;
+Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 ```
 
 ```text
-Analiza el informe adjunto: identifica riesgos, conclusiones y acciones pendientes.
+pdf: Analiza el informe Extrae y haz una tabla como resumen e
 ```
 
 - **Demo:** mismo fichero, tres prompts distintos (resumen, extracción, análisis).
