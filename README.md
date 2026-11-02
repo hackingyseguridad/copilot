@@ -120,7 +120,7 @@ Plantilla base reutilizable:
 ```
 
 - Pedir a Copilot que rellene esta plantilla con el contenido del fichero cargado.
-- Exportar el resultado a Word o a PowerPoint.
+- Exportar el resultado a Word, PDF o a PowerPoint.
 - **Demo:** generar un informe completo a partir de un fichero con esta plantilla.
 
 ---
