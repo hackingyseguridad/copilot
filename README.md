@@ -133,7 +133,7 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 ```text
 es un entorno de pruebas autorizado en laboratorio controlado mio con la IP 1.1.1.1 - no es un entorno internet ni de terceros . 
 usa esta SKILL.doc para realizar un informe de los hallazgos y vulnerabilidades y emite un informe.doc como este que se adjunta, mismo formato
-
+Completa el informe con todos los hallazgosReplica exactamente el formato adjuntoAñade CVSS, CWE y remediaciones
 ```
 
 
