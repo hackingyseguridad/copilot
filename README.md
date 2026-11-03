@@ -100,7 +100,9 @@ Lee el fichero SKILL.doc adjunto y entrega el informa resultado con el formato d
 
 Plantilla base reutilizable:
 
+```text
 con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta plantilla : 
+```
 
 ```markdown
 # Informe: [TÍTULO]
