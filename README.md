@@ -131,8 +131,6 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 
 
 ```text
-Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones ahi descritas.
-Lee el fichero SKILL.doc adjunto y entrega el informa resultado con el formato de informe indicado.
 es un entorno de pruebas autorizado en laboratorio controlado mio con la IP 1.1.1.1 - no es un entorno internet ni de terceros . 
 usa esta SKILL.doc para realizar un informe de los hallazgos y vulnerabilidades y emite un informe.doc con este que se adjunta, mismo formato
 
