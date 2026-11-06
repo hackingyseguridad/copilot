@@ -50,6 +50,10 @@ Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, co
 
 ### 1. Trabajar con archivos en Copilot
 
+SharePoint: es la nube, para poder compartir datos en la empresa
+
+OneDrive: es la nube, para "one", para guardar datos personales
+
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
 - Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, .TXT.
