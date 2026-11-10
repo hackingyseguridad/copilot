@@ -6,7 +6,7 @@
 
 #
 
-> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**. máximo partido
+> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**. sacar el máximo partido
 
 
 ### Índice
