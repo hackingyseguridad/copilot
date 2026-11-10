@@ -46,6 +46,17 @@
 
 **Microsoft 365 Copilot básico o corporativo con las funciones habilitadas por la empresa (sin licencia):** permite utilizar inteligencia artificial para realizar tareas habituales de oficina, como responder preguntas, resolver dudas, explicar conceptos, buscar información, redactar, corregir y traducir textos, resumir documentos, analizar archivos Word, Excel, PDF y PowerPoint (cuando esté habilitado), extraer información, generar informes, tablas, conclusiones y recomendaciones, utilizar prompts e instrucciones reutilizables para estandarizar tareas y formatos de respuesta, así como comparar documentos, identificar diferencias y extraer los puntos más relevantes.
 
+1. Consultas y búsquedas: responder preguntas, explicar conceptos y buscar información en Internet.
+2. Redacción: crear, corregir, resumir y traducir textos, informes y correos.
+3. Análisis de documentos: trabajar con archivos Word, Excel, PDF y PowerPoint que se adjunten.
+4. Análisis de datos: interpretar tablas, comparar información, extraer conclusiones y generar resúmenes.
+5. Creación de contenido: preparar informes, propuestas, tablas, guiones y presentaciones.
+6. Prompts y contexto: utilizar instrucciones reutilizables y documentos de referencia para personalizar respuestas.
+7. OneDrive: trabajar con archivos corporativos accesibles según los permisos y funcionalidades habilitadas.
+8. Seguridad corporativa: protección empresarial de datos y aplicación de las políticas de la organización.
+Limitación principal: sin licencia completa de Microsoft 365 Copilot, no dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni acceso automático a todo el contenido corporativo.
+
+
 Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, como AGENTS.doc (convención abierta para definir instrucciones de trabajo dirigidas a agentes de IA), SKILL.doc (convención para describir habilidades o procedimientos específicos). Aunque Copilot básico no interpreta estos archivos automáticamente como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones. Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.doc con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
 ### 1. Trabajar con archivos en Copilot
