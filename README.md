@@ -86,7 +86,7 @@ OneDrive: es la nube, para "one", para guardar datos personales
 
 - Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, .TXT.
 - Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot, caperta /Home.
-- Diferencia entre adjuntar un fichero y pegar texto en el chat.
+- Diferencia entre adjuntar un fichero o arrastrarlo y pegar texto en el chat.
 - Límites habituales: tamaño y número de ficheros por conversación.
 - **Demo:** cargar un documento Word y un Excel de ejemplo.
 
