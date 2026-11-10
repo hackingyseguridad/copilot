@@ -6,7 +6,7 @@
 
 #
 
-> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**. sacar el máximo partido
+> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**.
 
 
 ### Índice
@@ -64,13 +64,10 @@ podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico,
 
 1. AGENTS.docx: define instrucciones generales de trabajo para agentes de IA.
 2. SKILL.docx: describe habilidades, tareas y procedimientos específicos.
-3. Funcionamiento: Copilot Básico no interpreta automáticamente estos archivos como agentes, pero permite adjuntarlos como referencia y seguir sus instrucciones.
-4. Demostración práctica: adjuntar un Excel con datos y un AGENTS.docx con las especificaciones de trabajo.
-5. Prompt: «Analiza el Excel siguiendo las instrucciones de AGENTS.docx y genera un informe con la estructura, los criterios y el formato especificados».
-6. Objetivo: reutilizar instrucciones y automatizar parcialmente análisis e informes, sin licencia adicional, siempre que la empresa permita adjuntar archivos.
 
+aunque Copilot básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones, en la sesion actual 
 
-Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, como AGENTS.doc (convención abierta para definir instrucciones de trabajo dirigidas a agentes de IA), SKILL.doc (convención para describir habilidades o procedimientos específicos). Aunque Copilot básico no interpreta estos archivos automáticamente como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones. Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.doc con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
+Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.doc con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, le sacaremos el máximo posible, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
 ### 1. Trabajar con archivos en Copilot
 
