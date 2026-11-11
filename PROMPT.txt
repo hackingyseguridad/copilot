@@ -18,4 +18,6 @@ pdf: analiza y resume muy mucho este documento pdf y genera un resumen, en un pa
 
 pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para HTTPS.
 
+pdf: convierte a PowerPoint en formato 4:3 (Estándar) formato tradicional y añade algun grafico que resuma explique mejor o imagen que puede hacerla mas entendible.
+
 Report: informe profesional de pruebas de penetración con resúmen ejecutivo, puntuación CVSS y planes de reparos, usa el fichero 
