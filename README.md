@@ -200,26 +200,7 @@ analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaci
 
 ### 2. Seguridad y revisión de resultados
 
-### 2.0 Utilizar la cuenta y las herramientas autorizadas por la empresa
-
-- Usar siempre la cuenta corporativa de Office 365, nunca cuentas personales.
-- Usar solo las herramientas de IA aprobadas por la organización.
-- Comprobar que la sesión muestra la protección de datos corporativa activa.
-
-### 2.1 Comprobar qué información se puede cargar según su clasificación
-
-- Revisar la política de clasificación de la empresa (pública, interna, confidencial, restringida).
-- No cargar datos personales, credenciales, secretos ni información sensible no autorizada.
-- Ante la duda, anonimizar o consultar con el responsable de seguridad.
-
-### 2.2 Revisar cifras, interpretaciones y referencias antes de compartir un informe
-
-- Contrastar las cifras con el fichero original.
-- Verificar que la interpretación se corresponde con el contenido real del documento.
-- Comprobar que las referencias y citas existen y dicen lo que Copilot afirma.
-- Revisión humana siempre antes de enviar o publicar.
-
-### 2.3 Detectar posibles errores o información inventada
+### 2.1 Detectar posibles errores o información inventada
 
 - Qué son las "alucinaciones": respuestas plausibles pero falsas.
 - Señales de alerta: datos demasiado exactos, fuentes que no se pueden localizar, afirmaciones sin respaldo en el fichero.
