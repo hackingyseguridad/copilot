@@ -184,6 +184,19 @@ Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los fiche
 analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
 ```
 
+Agentes instalados ya en Copilot
+
+| Agente | Qué hace |
+|---|---|
+| Workflows (Frontier) | Crea flujos de trabajo automatizados mediante lenguaje natural, sin programar. |
+| Learning | Recomienda formación personalizada en IA y otras competencias profesionales. |
+| Workforce Insights (Frontier) | Analiza información organizativa, equipos, empleados y competencias profesionales. |
+| SharePoint list agent | Convierte información de conversaciones de Copilot en listas estructuradas de SharePoint. |
+| Prompt Coach | Ayuda a redactar, corregir y optimizar prompts para obtener mejores resultados. |
+| Idea Coach | Facilita lluvias de ideas, desarrolla propuestas y ayuda a planificar proyectos. |
+| Writing Coach | Mejora la redacción, claridad, estructura y tono de textos y documentos. |
+| Learning Coach | Actúa como tutor interactivo pa |
+
 
 ### 2. Seguridad y revisión de resultados
 
