@@ -80,7 +80,7 @@ con razonamiento profundo:
 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest). |
-| `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (renombrado desde `resultado.txt`). |
+| `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
 podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, 
