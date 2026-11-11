@@ -178,7 +178,7 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 ---
 
 
-Seleccionamos GPT 5.6 Sol modo pensar profundo, añadimos los ficheros de hallazgos y la SKILL.doc
+Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los ficheros de hallazgos y la SKILL.doc
 
 ```text
 analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
