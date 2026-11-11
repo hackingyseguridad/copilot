@@ -44,7 +44,7 @@
 
 ### Introduccion:
 
-### Introducción: Microsoft 365 Copilot Básico Corporativo
+### Introducción: Microsoft 365 Copilot Básico corporativo
 
 **Microsoft 365 Copilot Chat Básico (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
 
