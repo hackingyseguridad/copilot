@@ -17,11 +17,9 @@
    - [1.2 Prompts e instrucciones reutilizables](#12-prompts-e-instrucciones-reutilizables)
    - [1.3 SKILL.md y AGENTS.md para automatizar tareas](#13-skillmd-y-agentsmd-para-automatizar-tareas)
    - [1.4 Plantilla de instrucciones para informes](#14-plantilla-de-instrucciones-para-obtener-un-informe--formato-de-documento)
+   - 
 2. [Seguridad y revisión de resultados](#2-seguridad-y-revisión-de-resultados)
-   - [2.0 Cuenta y herramientas autorizadas](#20-utilizar-la-cuenta-y-las-herramientas-autorizadas-por-la-empresa)
-   - [2.1 Clasificación de la información](#21-comprobar-qué-información-se-puede-cargar-según-su-clasificación)
-   - [2.2 Revisar antes de compartir](#22-revisar-cifras-interpretaciones-y-referencias-antes-de-compartir-un-informe)
-   - [2.3 Detectar errores e información inventada](#23-detectar-posibles-errores-o-información-inventada)
+   - [2.1 Detectar errores e información inventada](#23-detectar-posibles-errores-o-información-inventada)
 
 ---
 
