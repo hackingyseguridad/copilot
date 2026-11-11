@@ -71,6 +71,18 @@ con razonamiento profundo:
 
 ### Uso de archivos de instrucciones: AGENTS.docx y SKILL.docx
 
+| Nombre de fichero | Descripción |
+|---|---|
+| `AGENTS.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| `PROMPT.txt` | Fichero de texto con los prompts (instrucciones) utilizados en el proyecto. |
+| `SKILL.doc` | Documento que define una "skill" (habilidad) de Copilot, orientada a la generación de informes de pentest. |
+| `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
+| `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
+| `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
+| `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest). |
+| `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (renombrado desde `resultado.txt`). |
+| `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
+
 podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, 
 
 1. AGENTS.docx: define instrucciones generales de trabajo para agentes de IA.
