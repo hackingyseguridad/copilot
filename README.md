@@ -184,7 +184,7 @@ Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los fiche
 analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
 ```
 
-Agentes instalados ya en Copilot
+### 1.5 Agentes instalados ya en Copilot
 
 | Agente | Qué hace |
 |---|---|
