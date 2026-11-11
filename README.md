@@ -115,7 +115,7 @@ Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve
 ```
 
 ```text
-Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
+Excel: filtra las vulnerabilidadespara SSH en 2026 de gravedad critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 ```
 
 ```text
