@@ -48,12 +48,14 @@
 
 **Microsoft 365 Copilot Chat Básico (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
 
+con respuesta rápido: 
 1. **Consultas y búsquedas:** responder preguntas, resolver dudas, explicar conceptos y buscar información en Internet.
 2. **Redacción y creación de contenido:** elaborar, corregir, resumir y traducir textos, correos, informes, propuestas y presentaciones.
 3. **Análisis de documentos:** trabajar con archivos Word, Excel, PDF y PowerPoint adjuntos, extraer información, comparar documentos e identificar diferencias.
 4. **Análisis de datos:** interpretar tablas, identificar tendencias, obtener conclusiones y elaborar recomendaciones.
 5. **Prompts e instrucciones reutilizables:** utilizar plantillas, documentos de contexto y criterios predefinidos para estandarizar tareas y formatos de respuesta.
 6. **OneDrive:** utilizar archivos corporativos accesibles, según los permisos y las funcionalidades habilitadas.
+con razonamiento profundo:
 7. **Seguridad corporativa:** aplicar las políticas de protección de datos, acceso y seguridad establecidas por la organización.
 8. Programación y scripts: generar, corregir, optimizar y explicar código en Python, Bash, PowerShell, JavaScript, SQL, etc.
 9. Ciberseguridad y vulnerabilidades: analizar CVE, resultados de Nmap, Nessus y OpenVAS, identificar riesgos y proponer mitigaciones.
