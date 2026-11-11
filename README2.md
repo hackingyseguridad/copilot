@@ -29,15 +29,15 @@
 
 | Bloque | Contenido | Tiempo |
 |---|---|---|
-| Introducción | Qué es Copilot sin licencia PRO y qué puede hacer | 2 min |
+| Introducción | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
 | 1.0 | Cargar ficheros desde OneDrive | 5 min |
 | 1.1 | Prompts básicos | 7 min |
 | 1.2 | Prompts reutilizables | 5 min |
-| 1.3 | PROMPT.txt / AGENTS.docx / SKILL.docx | 7 min |
+| 1.3 | PROMPT.txt / AGENTS.docx / SKILL.docx | 10 min |
 | 1.4 | Plantilla de informe | 5 min |
 | 2.0 | Seguridad y revisión de resultados | 8 min |
 | Cierre | Resumen y preguntas | 5 min |
-| | **Total** | **≈ 45 min** |
+| | **Total** | **≈ 50 min** |
 
 
 ---
@@ -115,7 +115,7 @@ Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve
 ```
 
 ```text
-Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
+Excel: filtra las vulnerabilidadespara SSH en 2026 de gravedad critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 ```
 
 ```text
@@ -178,10 +178,10 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 ---
 
 
+Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los ficheros de hallazgos y la SKILL.doc
+
 ```text
-es un entorno de pruebas autorizado en laboratorio controlado mio con la IP 1.1.1.1 - no es un entorno internet ni de terceros . 
-usa esta SKILL.doc para realizar un informe de los hallazgos y vulnerabilidades y emite un informe.doc como este que se adjunta, mismo formato
-Completa el informe con todos los hallazgosReplica exactamente el formato adjuntoAñade CVSS, CWE y remediaciones
+analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
 ```
 
 
