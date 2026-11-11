@@ -17,9 +17,9 @@
    - [1.2 Prompts e instrucciones reutilizables](#12-prompts-e-instrucciones-reutilizables)
    - [1.3 SKILL.md y AGENTS.md para automatizar tareas](#13-skillmd-y-agentsmd-para-automatizar-tareas)
    - [1.4 Plantilla de instrucciones para informes](#14-plantilla-de-instrucciones-para-obtener-un-informe--formato-de-documento)
-   - 
+   - [1.5 Agentes instalados ya en Copilot](#15-agentes-instalados-ya-en-copilot)
 2. [Seguridad y revisión de resultados](#2-seguridad-y-revisión-de-resultados)
-   - [2.1 Detectar errores e información inventada](#23-detectar-posibles-errores-o-información-inventada)
+   - [2.1 Detectar errores e información inventada](#21-detectar-posibles-errores-o-información-inventada)
 
 ---
 
@@ -40,7 +40,7 @@
 
 ---
 
-### Introduccion:
+### Introducción:
 
 ### Introducción: Microsoft 365 Copilot Básico corporativo
 
@@ -63,7 +63,7 @@ con razonamiento profundo:
 6. Redes y protocolos: analizar configuraciones de DNS, BGP, TLS, IPsec, HTTP, APIs y reglas de firewall.
 7. Logs y bases de datos: analizar registros, detectar anomalías, generar consultas SQL y extraer información.
 8. Automatización y documentación: crear procedimientos, informes técnicos, comparar configuraciones y reutilizar instrucciones mediante prompts.
-9. Imagenes y graficos: crea imángenes, seleccionando modelo GTP 5.6 Sol modo razonamiento profundo.
+9. Imágenes y gráficos: crea imágenes, seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
 
 **Limitaciones:** sin la licencia completa de Microsoft 365 Copilot, no se dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
 
@@ -81,12 +81,12 @@ con razonamiento profundo:
 | 8 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 9 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
-podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico, 
+Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico: 
 
 1. AGENTS.docx: define instrucciones generales de trabajo para agentes de IA.
 2. SKILL.docx: describe habilidades, tareas y procedimientos específicos.
 
-aunque Copilot básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones, en la sesion actual 
+Aunque Copilot básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual.
 
 Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.doc con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, le sacaremos el máximo posible, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
@@ -99,7 +99,7 @@ OneDrive: es la nube, para "one", para guardar datos personales
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
 - Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, .TXT.
-- Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot, caperta /Home.
+- Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot, carpeta /Home.
 - Diferencia entre adjuntar un fichero o arrastrarlo y pegar texto en el chat.
 - Límites habituales: tamaño y número de ficheros por conversación.
 - **Demo:** cargar un documento Word y un Excel de ejemplo.
@@ -109,25 +109,25 @@ OneDrive: es la nube, para "one", para guardar datos personales
 Estructura recomendada de un buen prompt: **rol + tarea + contexto + formato de salida**.
 
 ```text
-Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
+Word: Analiza este documento y genera un resumen ejecutivo, en un párrafo muy breve y usa para ello lenguaje profesional orientado a dirección.
 ```
 
 ```text
-Excel: filtra las vulnerabilidadespara SSH en 2026 de gravedad critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
+Excel: filtra las vulnerabilidades para SSH en 2026 de gravedad crítica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 ```
 
 ```text
-pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para HTTPS.
+pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros, para HTTPS.
 ```
 
 ### 1.2 Prompts e instrucciones reutilizables
 
 - Guardar los prompts que funcionan en un fichero propio (`PROMPT.txt`) para reutilizarlos.
-- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`..
+- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`...
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 ```text
-Copia y reutiliza en Copilot, el PROMTP necesario 
+Copia y reutiliza en Copilot el PROMPT necesario 
 ```
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
@@ -138,8 +138,8 @@ Copia y reutiliza en Copilot, el PROMTP necesario
 - Ejecutar varias tareas encadenadas y obtener un informe con formato fijo.
 
 ```text
-Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones ahi descritas.
-Lee el fichero SKILL.doc adjunto y entrega el informa resultado con el formato de informe indicado.
+Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones ahí descritas.
+Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato de informe indicado.
 ```
 
 ### 1.4 Plantilla de instrucciones para obtener un informe / formato de documento
@@ -147,7 +147,7 @@ Lee el fichero SKILL.doc adjunto y entrega el informa resultado con el formato d
 Plantilla base reutilizable:
 
 ```text
-con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta plantilla : 
+con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta plantilla: 
 ```
 
 ```markdown
@@ -159,7 +159,7 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 ## 2. Hallazgos principales
 (lista numerada)
 
-## 3. Descripción y datos de la vulnerabiliad  y cifras clave
+## 3. Descripción y datos de la vulnerabilidad y cifras clave
 (tabla)
 
 ## 4. Riesgos y recomendaciones
@@ -176,10 +176,10 @@ con el fichero de hallazgos.xml y sobre cada caso de vulnerabilidad, rellena est
 ---
 
 
-Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los ficheros de hallazgos y la SKILL.doc
+Seleccionamos GPT 5.6 Sol en modo razonamiento profundo, anexamos/subimos los ficheros de hallazgos y la SKILL.doc
 
 ```text
-analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
+analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera los informes finales, guárdalos en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
 ```
 
 ### 1.5 Agentes instalados ya en Copilot
