@@ -17,11 +17,9 @@
    - [1.2 Prompts e instrucciones reutilizables](#12-prompts-e-instrucciones-reutilizables)
    - [1.3 SKILL.md y AGENTS.md para automatizar tareas](#13-skillmd-y-agentsmd-para-automatizar-tareas)
    - [1.4 Plantilla de instrucciones para informes](#14-plantilla-de-instrucciones-para-obtener-un-informe--formato-de-documento)
+   - 
 2. [Seguridad y revisión de resultados](#2-seguridad-y-revisión-de-resultados)
-   - [2.0 Cuenta y herramientas autorizadas](#20-utilizar-la-cuenta-y-las-herramientas-autorizadas-por-la-empresa)
-   - [2.1 Clasificación de la información](#21-comprobar-qué-información-se-puede-cargar-según-su-clasificación)
-   - [2.2 Revisar antes de compartir](#22-revisar-cifras-interpretaciones-y-referencias-antes-de-compartir-un-informe)
-   - [2.3 Detectar errores e información inventada](#23-detectar-posibles-errores-o-información-inventada)
+   - [2.1 Detectar errores e información inventada](#23-detectar-posibles-errores-o-información-inventada)
 
 ---
 
@@ -184,29 +182,23 @@ Seleccionamos GPT 5.6 Sol modo razonamiento profundo, anexamos/subimos los fiche
 analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera formatos finales informes, guarda en formato Word, con todas las evidencias, detalle y descripciones necesarias disponibles
 ```
 
+### 1.5 Agentes instalados ya en Copilot
+
+| Agente | Qué hace |
+|---|---|
+| Workflows (Frontier) | Crea flujos de trabajo automatizados mediante lenguaje natural, sin programar. |
+| Learning | Recomienda formación personalizada en IA y otras competencias profesionales. |
+| Workforce Insights (Frontier) | Analiza información organizativa, equipos, empleados y competencias profesionales. |
+| SharePoint list agent | Convierte información de conversaciones de Copilot en listas estructuradas de SharePoint. |
+| Prompt Coach | Ayuda a redactar, corregir y optimizar prompts para obtener mejores resultados. |
+| Idea Coach | Facilita lluvias de ideas, desarrolla propuestas y ayuda a planificar proyectos. |
+| Writing Coach | Mejora la redacción, claridad, estructura y tono de textos y documentos. |
+| Learning Coach | Actúa como tutor interactivo pa |
+
 
 ### 2. Seguridad y revisión de resultados
 
-### 2.0 Utilizar la cuenta y las herramientas autorizadas por la empresa
-
-- Usar siempre la cuenta corporativa de Office 365, nunca cuentas personales.
-- Usar solo las herramientas de IA aprobadas por la organización.
-- Comprobar que la sesión muestra la protección de datos corporativa activa.
-
-### 2.1 Comprobar qué información se puede cargar según su clasificación
-
-- Revisar la política de clasificación de la empresa (pública, interna, confidencial, restringida).
-- No cargar datos personales, credenciales, secretos ni información sensible no autorizada.
-- Ante la duda, anonimizar o consultar con el responsable de seguridad.
-
-### 2.2 Revisar cifras, interpretaciones y referencias antes de compartir un informe
-
-- Contrastar las cifras con el fichero original.
-- Verificar que la interpretación se corresponde con el contenido real del documento.
-- Comprobar que las referencias y citas existen y dicen lo que Copilot afirma.
-- Revisión humana siempre antes de enviar o publicar.
-
-### 2.3 Detectar posibles errores o información inventada
+### 2.1 Detectar posibles errores o información inventada
 
 - Qué son las "alucinaciones": respuestas plausibles pero falsas.
 - Señales de alerta: datos demasiado exactos, fuentes que no se pueden localizar, afirmaciones sin respaldo en el fichero.
