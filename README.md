@@ -55,15 +55,16 @@ con respuesta rápido:
 4. **Análisis de datos:** interpretar tablas, identificar tendencias, obtener conclusiones y elaborar recomendaciones.
 5. **Prompts e instrucciones reutilizables:** utilizar plantillas, documentos de contexto y criterios predefinidos para estandarizar tareas y formatos de respuesta.
 6. **OneDrive:** utilizar archivos corporativos accesibles, según los permisos y las funcionalidades habilitadas.
+
 con razonamiento profundo:
-7. **Seguridad corporativa:** aplicar las políticas de protección de datos, acceso y seguridad establecidas por la organización.
-8. Programación y scripts: generar, corregir, optimizar y explicar código en Python, Bash, PowerShell, JavaScript, SQL, etc.
-9. Ciberseguridad y vulnerabilidades: analizar CVE, resultados de Nmap, Nessus y OpenVAS, identificar riesgos y proponer mitigaciones.
-10. Configuraciones de equipos: revisar configuraciones de routers, switches, firewalls, VPN y servidores, detectando errores y problemas de seguridad.
-11. Archivos de configuración: validar, corregir y generar JSON, YAML, XML, CSV, INI y otros formatos.
-12. Redes y protocolos: analizar configuraciones de DNS, BGP, TLS, IPsec, HTTP, APIs y reglas de firewall.
-13. Logs y bases de datos: analizar registros, detectar anomalías, generar consultas SQL y extraer información.
-14. Automatización y documentación: crear procedimientos, informes técnicos, comparar configuraciones y reutilizar instrucciones mediante prompts.
+1. **Seguridad corporativa:** aplicar las políticas de protección de datos, acceso y seguridad establecidas por la organización.
+2. Programación y scripts: generar, corregir, optimizar y explicar código en Python, Bash, PowerShell, JavaScript, SQL, etc.
+3. Ciberseguridad y vulnerabilidades: analizar CVE, resultados de Nmap, Nessus y OpenVAS, identificar riesgos y proponer mitigaciones.
+4. Configuraciones de equipos: revisar configuraciones de routers, switches, firewalls, VPN y servidores, detectando errores y problemas de seguridad.
+5. Archivos de configuración: validar, corregir y generar JSON, YAML, XML, CSV, INI y otros formatos.
+6. Redes y protocolos: analizar configuraciones de DNS, BGP, TLS, IPsec, HTTP, APIs y reglas de firewall.
+7. Logs y bases de datos: analizar registros, detectar anomalías, generar consultas SQL y extraer información.
+8. Automatización y documentación: crear procedimientos, informes técnicos, comparar configuraciones y reutilizar instrucciones mediante prompts.
 
 **Limitaciones:** sin la licencia completa de Microsoft 365 Copilot, no se dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
 
