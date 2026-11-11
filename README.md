@@ -29,15 +29,15 @@
 
 | Bloque | Contenido | Tiempo |
 |---|---|---|
-| Introducción | Qué es Copilot sin licencia PRO y qué puede hacer | 2 min |
+| Introducción | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
 | 1.0 | Cargar ficheros desde OneDrive | 5 min |
 | 1.1 | Prompts básicos | 7 min |
 | 1.2 | Prompts reutilizables | 5 min |
-| 1.3 | PROMPT.txt / AGENTS.docx / SKILL.docx | 7 min |
+| 1.3 | PROMPT.txt / AGENTS.docx / SKILL.docx | 10 min |
 | 1.4 | Plantilla de informe | 5 min |
 | 2.0 | Seguridad y revisión de resultados | 8 min |
 | Cierre | Resumen y preguntas | 5 min |
-| | **Total** | **≈ 45 min** |
+| | **Total** | **≈ 50 min** |
 
 
 ---
