@@ -63,7 +63,8 @@ con razonamiento profundo:
 6. Redes y protocolos: analizar configuraciones de DNS, BGP, TLS, IPsec, HTTP, APIs y reglas de firewall.
 7. Logs y bases de datos: analizar registros, detectar anomalías, generar consultas SQL y extraer información.
 8. Automatización y documentación: crear procedimientos, informes técnicos, comparar configuraciones y reutilizar instrucciones mediante prompts.
-9. Imágenes y gráficos: crea imágenes, seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
+9. Imágenes y gráficos: crea imágenes, mejor seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
+10. Presentaciones PowerPoint, mejor seleccionando el modelo GPT 5.6 Sol en modo pensar razonamiento profundo.
 
 **Limitaciones:** sin la licencia completa de Microsoft 365 Copilot, no se dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
 
