@@ -128,9 +128,11 @@ pdf: cifrados.pdf,  analiza el informe y haz una tabla como resumen ejecutivo co
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 ```text
-Copia y reutiliza en Copilot el [PROMPT.txt](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
-
+Copia y reutiliza en Copilot el
 ```
+[PROMPT.txt](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
+
+
 
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas
 
