@@ -89,7 +89,7 @@ con razonamiento profundo:
 | 8 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 9 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
-Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico: 
+Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico:  
 
 1. AGENTS.docx: define instrucciones generales de trabajo para agentes de IA.
 2. SKILL.docx: describe habilidades, tareas y procedimientos específicos.
@@ -140,9 +140,6 @@ pdf: cifrados.pdf,  analiza el informe y haz una tabla como resumen ejecutivo co
 Copia y reutiliza en Copilot el PROMPT : 
 ```
 
-
-
-
 ### 1.3 SKILL.md y AGENTS.md para automatizar tareas, converir en Agentes
 
 - Qué es un `SKILL.doc`: instrucciones paso a paso para una tarea concreta.
@@ -155,7 +152,9 @@ Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones a
 Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato de informe indicado.
 ```
 
-- sobre estos podemos crear un Agente persistente en Copilot, con el asistente y dejarlo guardado/compartirlo
+**AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot**
+
+- sobre estos podemos crear un Agentes persistente en Copilot, con el asistente y dejarlo guardado/compartirlo
 
 
 ### 1.4 Plantilla de instrucciones para obtener un informe / formato de documento
