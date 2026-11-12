@@ -2,6 +2,8 @@ Instrucción Copilot IA ( PROMPTs reutilizables ):
 
 Modelo: que  modelo de IA eres?
 
+Licencia: haz una tabla comprativa ejecutiva de las difrencias principales de lo que NO permite la licencia actual corporativa Copilot Basico y Copilot Premium PRO.
+
 SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
 
 SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
