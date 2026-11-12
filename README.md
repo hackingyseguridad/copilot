@@ -78,7 +78,7 @@ con razonamiento profundo:
 | 4 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
 | 5 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
 | 6 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
-| 7 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest). |
+| 7 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest fqdn). |
 | 8 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 9 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
