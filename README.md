@@ -110,15 +110,15 @@ OneDrive: es la nube, para "one", para guardar datos personales
 Estructura recomendada de un buen prompt: **rol + tarea + contexto + formato de salida**.
 
 ```text
-Word: Analiza este documento y genera un resumen ejecutivo, en un párrafo muy breve y usa para ello lenguaje profesional orientado a dirección.
+Word: informe.doc, Analiza este documento y genera un resumen ejecutivo, en un párrafo muy breve y usa para ello lenguaje profesional orientado a dirección.
 ```
 
 ```text
-Excel: filtra las vulnerabilidades para SSH en 2026 de gravedad crítica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
+Excel: cve2026.xls, filtra las vulnerabilidades para SSH en 2026 de gravedad crítica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 ```
 
 ```text
-pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros, para HTTPS.
+pdf: cifrados.pdf,  analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros, para HTTPS.
 ```
 
 ### 1.2 Prompts e instrucciones reutilizables
