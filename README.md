@@ -190,6 +190,8 @@ analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaci
 
 ### 1.5 Agentes instalados ya en Copilot
 
+Agentes declarativos, especializados disponibles en la licencia actual de Copilot:
+
 | Agente | Qué hace |
 |---|---|
 | Workflows (Frontier) | Crea flujos de trabajo automatizados mediante lenguaje natural, sin programar. |
