@@ -143,7 +143,7 @@ Copia y reutiliza en Copilot el PROMPT :
 
 
 
-### 1.3 SKILL.md y AGENTS.md para automatizar tareas
+### 1.3 SKILL.md y AGENTS.md para automatizar tareas, converir en Agentes
 
 - Qué es un `SKILL.doc`: instrucciones paso a paso para una tarea concreta.
 - Qué es un `AGENTS.doc`: premisas, reglas generales y comportamiento esperado del asistente.
@@ -154,6 +154,9 @@ Copia y reutiliza en Copilot el PROMPT :
 Lee el fichero AGENTS.doc adjunto y aplica para esta sesión sus instrucciones ahí descritas.
 Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato de informe indicado.
 ```
+
+- sobre estos podemos crear un Agente persistente en Copilot, con el asistente y dejarlo guardado/compartirlo
+
 
 ### 1.4 Plantilla de instrucciones para obtener un informe / formato de documento
 
