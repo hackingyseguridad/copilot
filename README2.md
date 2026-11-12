@@ -44,7 +44,14 @@
 
 ### Introducción: Microsoft 365 Copilot Básico corporativo
 
-**Microsoft 365 Copilot Chat Básico (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
+**Microsoft 365 Copilot Chat Básico (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:  
+
+```text
+¿que modelo de IA eres?
+```
+```text
+ haz una tabla comprativa ejecutiva de las difrencias principales de lo que NO permite la licencia actual corporativa Copilot Basico y Copilot Premium PRO.
+```
 
 con respuesta rápida: 
 1. **Consultas y búsquedas:** responder preguntas, resolver dudas, explicar conceptos y buscar información en Internet.
@@ -78,7 +85,7 @@ con razonamiento profundo:
 | 4 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
 | 5 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
 | 6 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
-| 7 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest). |
+| 7 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest fqdn). |
 | 8 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 9 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
@@ -87,7 +94,7 @@ Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico:
 1. AGENTS.docx: define instrucciones generales de trabajo para agentes de IA.
 2. SKILL.docx: describe habilidades, tareas y procedimientos específicos.
 
-Aunque Copilot básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual.
+Aunque Copilot básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual. ( permite anexar y usar tres archicos maximo, por instruccion)
 
 Como demostración práctica, cargaremos un archivo Excel con datos y un fichero AGENTS.doc con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, le sacaremos el máximo posible, sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
@@ -189,6 +196,8 @@ analiza los ficheros hallazgos.xml y hallazgos2.xml ; Lee y usa las especificaci
 ```
 
 ### 1.5 Agentes instalados ya en Copilot
+
+Agentes declarativos, especializados disponibles en la licencia actual de Copilot:
 
 | Agente | Qué hace |
 |---|---|
