@@ -1,4 +1,4 @@
-### Copilot Office 365: uso básico y demostración práctica
+### Copilot Office 365: uso básico y demostración práctica. Automatizacion
 
 #
 
@@ -31,7 +31,7 @@
 | 1.0 | Usar ficheros desde OneDrive, Anexar, adjuntar, arrastrar | 5 min |
 | 1.1 | Prompts básicos, consultas, instrucciones | 7 min |
 | 1.2 | Prompts reutilizables PROTMP.txt | 5 min |
-| 1.3 | Crear Agentes en Copilot, Demo crear 3 Agentes  | 10 min |
+| 1.3 | Crear Agentes en Copilot (automatizacion), Demo crear 3 Agentes  | 10 min |
 | 1.4 | Plantilla de informe, con super Agente | 5 min |
 | 2.0 | Seguridad y revisión de resultados | 8 min |
 | Cierre | Resumen y preguntas | 5 min |
