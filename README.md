@@ -28,11 +28,11 @@
 | Bloque | Contenido | Tiempo |
 |---|---|---|
 | Introducción | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
-| 1.0 | Cargar ficheros desde OneDrive | 5 min |
-| 1.1 | Prompts básicos | 7 min |
+| 1.0 | Usar ficheros desde OneDrive, Anexar, adjuntar, arrastrar | 5 min |
+| 1.1 | Prompts básicos, consultas, instrucciones | 7 min |
 | 1.2 | Prompts reutilizables PROTMP.txt | 5 min |
-| 1.3 | Crear Agentes en Copilot  | 10 min |
-| 1.4 | Plantilla de informe | 5 min |
+| 1.3 | Crear Agentes en Copilot, Demo crear 3 Agentes  | 10 min |
+| 1.4 | Plantilla de informe, con super Agente | 5 min |
 | 2.0 | Seguridad y revisión de resultados | 8 min |
 | Cierre | Resumen y preguntas | 5 min |
 | | **Total** | **≈ 50 min** |
