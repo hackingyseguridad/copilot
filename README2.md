@@ -159,7 +159,14 @@ Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato d
 
 **AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot**
 
-- Sobre estos podemos crear un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo.
+- Sobre estos ficheros:  AGENTS.doc y SKILL.doc, podemos crear con cada uno un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo. 
+
+Usaremos el asistente para crear agentes de forma manual;  para automatizar lo que hace cada uno;
+
+1º.- Crearemos un agente usando complantilla AGENTS.doc y le llamaremos al AGENTE: Premisas
+
+2º.- Crearemos con el asistente de Copilot un agente usando como plantilla SKLILL.doc y le llamaremos al AGENTE Informe_Hacking
+
 
 ### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
 
