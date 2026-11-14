@@ -1,4 +1,4 @@
-### Copilot Office 365: uso básico y demostración práctica. Automatización
+### Copilot Office 365: uso básico y demostración práctica. Automatización de trabajos
 
 <img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png?raw=true">
 
@@ -96,7 +96,7 @@ Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot Básico:
 1. `AGENTS.doc`: define instrucciones generales de trabajo para agentes de IA.
 2. `SKILL.doc`: describe habilidades, tareas y procedimientos específicos.
 
-Aunque Copilot Básico no interpreta ni guarda estos archivos como configuraciones de agentes, podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual (permite anexar y usar un máximo de tres archivos por instrucción).
+podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual (permite anexar y usar un máximo de tres archivos por instrucción).
 
 Como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, solicitando a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, podremos demostrar cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándole el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
@@ -163,7 +163,7 @@ Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato d
 
 Usaremos el asistente para crear agentes de forma manual;  para automatizar lo que hace cada uno;
 
-1º.- Crearemos un agente usando complantilla AGENTS.doc y le llamaremos al AGENTE: Premisas
+1º.- Crearemos con el asistente de Copilot un agente usando como plantilla AGENTS.doc y le llamaremos p.ej. al AGENTE: Premisas
 
 2º.- Crearemos con el asistente de Copilot un agente usando como plantilla SKLILL.doc y le llamaremos al AGENTE Informe_Hacking
 
@@ -250,3 +250,5 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [http://www.hackingyseguridad.com/](http://www.hackingyseguridad.com/)
+
+
