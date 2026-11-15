@@ -161,7 +161,7 @@ Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato d
 
 - Sobre estos ficheros:  AGENTS.doc y SKILL.doc, podemos crear con cada uno un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo. 
 
-Usaremos el asistente para crear agentes de forma manual;  para automatizar lo que hace cada uno;
+Usaremos el asistente **(Agent-Builder)** para crear agentes de forma manual;  para automatizar lo que hace cada uno;
 
 1º.- Crearemos con el asistente de Copilot un agente usando como plantilla AGENTS.doc y le llamaremos p.ej. al AGENTE: Premisas
 
