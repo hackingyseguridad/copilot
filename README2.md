@@ -34,7 +34,7 @@
 | [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones | 7 min |
 | [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (PROMPT.txt) | 5 min |
 | [1.3](#13-skilldoc-y-agentsdoc-para-automatizar-tareas) | Crear Agentes en Copilot (automatización). Demo: crear 3 Agentes | 10 min |
-| [1.4](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento) | Plantilla de informe, con súper Agente | 5 min |
+| [1.4](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento) | Informe Hacking automatico, con SKILL , Agente Copilot | 5 min |
 | [2](#2-seguridad-y-revisión-de-resultados) | Seguridad y revisión de resultados | 8 min |
 | [3](#3-resumen-final) | Cierre: resumen y preguntas | 5 min |
 | | **Total** | **≈ 50 min** |
@@ -168,6 +168,9 @@ Usaremos el asistente para crear agentes de forma manual;  para automatizar lo q
 2º.- Crearemos con el asistente de Copilot un agente usando como plantilla SKLILL.doc y le llamaremos al AGENTE Informe_Hacking
 
 
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/agente.png?raw=true">
+
+
 ### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
 
 Plantilla base reutilizable:
@@ -250,5 +253,4 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [http://www.hackingyseguridad.com/](http://www.hackingyseguridad.com/)
-
 
