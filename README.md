@@ -81,9 +81,12 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 
 | # | Nombre de fichero | Descripción |
 |---|---|---|
-| 1 | `AGENTS.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
-| 2 | `PROMPT.txt` | Fichero de texto con los PROMPTs (instrucciones guardadas) utilizados en el proyecto. |
-| 3 | `SKILL.doc` | Documento que define una "skill" (habilidad) de Copilot, orientada a la generación de informes de pentest. |
+| 1 | `PROMPT.txt` | Fichero de texto con los PROMPTs (instrucciones guardadas) utilizados en el proyecto. |
+| 2 | `AGENTS.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| 3 | "CVE_48h_Agente.doc" | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+
+
+| 5 | `SKILL.doc` | Documento que define una "skill" (habilidad) de Copilot, orientada a la generación de informes de pentest. |
 | 4 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
 | 5 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
 | 6 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
