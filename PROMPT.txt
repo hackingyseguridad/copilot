@@ -14,6 +14,8 @@ Vuln:  lista las vulnerabilidades CVE criticas publicados en las ultimas 48h
 
 Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
 
+Word.: Resume el contenido de la reunión, que acabo de Descargar trascripción en "Resumen de Reuniones" en TEAMS en formato .docx
+
 Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
 
 pdf: analiza y resume muy mucho este documento pdf y genera un resumen, en un parrafo breve muy breve.
