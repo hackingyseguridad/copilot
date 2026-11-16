@@ -81,15 +81,17 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 
 | # | Nombre de fichero | Descripción |
 |---|---|---|
-| 1 | `AGENTS.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
-| 2 | `PROMPT.txt` | Fichero de texto con los PROMPTs (instrucciones guardadas) utilizados en el proyecto. |
-| 3 | `SKILL.doc` | Documento que define una "skill" (habilidad) de Copilot, orientada a la generación de informes de pentest. |
-| 4 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
-| 5 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
-| 6 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
-| 7 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest FQDN). |
-| 8 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
-| 9 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
+| 1 | `PROMPT.txt` | Fichero de texto con los PROMPTs (instrucciones guardadas) utilizados en el proyecto. |
+| 2 | `AGENTS.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| 3 | `CVE_48h_Agente.doc` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| 4 | `agente_accion.docx` | Documento con definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| 5 | `SKILL.doc` | Documento que define una "skill" (habilidad) de Copilot, orientada a la generación de informes de pentest. |
+| 6 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
+| 7 | `cve2026.txt` | Listado en texto de CVEs (entradas del año 2026 u origen del script). |
+| 8 | `cve2026.xls` | Hoja de cálculo con datos de CVEs (tabla estructurada para análisis). |
+| 9 | `hallazgos.xml` | Fichero XML con hallazgos de seguridad (resultados de análisis/pentest FQDN). |
+| 10 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
+| 11 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
 Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot Básico:
 
@@ -161,7 +163,7 @@ Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato d
 
 - Sobre estos ficheros:  AGENTS.doc y SKILL.doc, podemos crear con cada uno un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo. 
 
-Usaremos el asistente para crear agentes de forma manual;  para automatizar lo que hace cada uno;
+Usaremos el asistente **(Agent-Builder)** para crear agentes de forma manual;  para automatizar lo que hace cada uno;
 
 1º.- Crearemos con el asistente de Copilot un agente usando como plantilla AGENTS.doc y le llamaremos p.ej. al AGENTE: Premisas
 
