@@ -75,7 +75,7 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 9. **Imágenes y gráficos:** crear imágenes; mejores resultados seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
 10. **Presentaciones PowerPoint:** mejores resultados seleccionando el modelo GPT 5.6 Sol en modo pensar (razonamiento profundo).
 
-**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot, no se dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
+**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de integración avanzada WORK generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
 
 ### 0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc
 
