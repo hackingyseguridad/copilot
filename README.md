@@ -8,7 +8,7 @@
 
 ---
 
-### Índice
+### Indice
 
 0. [Introducción](#0-introducción)
    - [0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc](#01-uso-de-archivos-de-instrucciones-agentsdoc-y-skilldoc)
