@@ -114,8 +114,8 @@ Como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 - Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, .TXT.
 - Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot, carpeta /Home.
 - Diferencia entre adjuntar un fichero, arrastrarlo y pegar texto en el chat.
-- Límites habituales: tamaño y número de ficheros por conversación.
-- **Demo:** cargar un documento Word y un Excel de ejemplo.
+- Límites habituales: tamaño y tres el número de ficheros por conversación, licencia Copilot Chat O365
+- **Demo:** cargar un documento de cada; p.ej. Word y un Excel de ejemplo..
 
 ### 1.1 Prompts básicos (analizar, extraer, informes, resúmenes)
 
