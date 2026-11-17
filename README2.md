@@ -43,14 +43,10 @@
 
 ### 0. Introducción
 
-**Microsoft 365 Copilot Chat Básico (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
+**Microsoft 365 Copilot Chat (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
 
 ```text
 ¿Qué modelo de IA eres?
-```
-
-```text
-Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual Copilot Básico respecto a Copilot Premium PRO.
 ```
 
 **Con respuesta rápida:**
@@ -75,7 +71,11 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 9. **Imágenes y gráficos:** crear imágenes; mejores resultados seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
 10. **Presentaciones PowerPoint:** mejores resultados seleccionando el modelo GPT 5.6 Sol en modo pensar (razonamiento profundo).
 
-**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot, no se dispone de integración avanzada generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
+**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de integración avanzada WORK generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
+
+```text
+Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual Copilot Chat O365, respecto a Copilot PRO.
+```
 
 ### 0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc
 
@@ -114,8 +114,8 @@ Como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 - Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, .TXT.
 - Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot, carpeta /Home.
 - Diferencia entre adjuntar un fichero, arrastrarlo y pegar texto en el chat.
-- Límites habituales: tamaño y número de ficheros por conversación.
-- **Demo:** cargar un documento Word y un Excel de ejemplo.
+- Límites habituales: tamaño y tres el número de ficheros por conversación, licencia Copilot Chat O365
+- **Demo:** cargar un documento de cada; p.ej. Word y un Excel de ejemplo..
 
 ### 1.1 Prompts básicos (analizar, extraer, informes, resúmenes)
 
@@ -261,5 +261,4 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 
 [http://www.hackingyseguridad.com/](http://www.hackingyseguridad.com/)
 
-
-
+@antonio_taboada
