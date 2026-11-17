@@ -4,7 +4,7 @@
 
 <br clear="left">
 
-> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**.
+> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia Premium / PRO**.
 
 ---
 
