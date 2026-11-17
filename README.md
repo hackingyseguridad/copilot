@@ -93,7 +93,7 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 | 10 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 11 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
-Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot básico:
+Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
 
 1. `AGENTS.doc`: define instrucciones generales de trabajo para agentes de IA.
 2. `SKILL.doc`: describe habilidades, tareas y procedimientos específicos.
