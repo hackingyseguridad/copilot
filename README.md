@@ -159,7 +159,7 @@ Lee el fichero AGENTS.doc adjunto y aplica para esta sesión las instrucciones a
 Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato de informe indicado.
 ```
 
-**AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot**
+**AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot, con Copilot Builder**
 
 - Sobre estos ficheros:  AGENTS.doc y SKILL.doc, podemos crear con cada uno un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo. 
 
@@ -171,6 +171,11 @@ Usaremos el asistente **(Agent-Builder)** para crear agentes de forma manual;  p
 
 
 <img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/agente.png?raw=true">
+
+
+**Agent Builder** en Microsoft 365 Copilot, que permite agentes sencillos basados en prompts y documentos.
+
+**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de , flujos con Power Automa  requiere licencias, permidiseño más cuidadoso.
 
 
 ### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
