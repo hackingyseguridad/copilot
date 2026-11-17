@@ -49,10 +49,6 @@
 ¿Qué modelo de IA eres?
 ```
 
-```text
-Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual Copilot Básico respecto a Copilot Premium PRO.
-```
-
 **Con respuesta rápida:**
 
 1. **Consultas y búsquedas:** responder preguntas, resolver dudas, explicar conceptos y buscar información en Internet.
@@ -76,6 +72,10 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 10. **Presentaciones PowerPoint:** mejores resultados seleccionando el modelo GPT 5.6 Sol en modo pensar (razonamiento profundo).
 
 **Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de integración avanzada WORK generalizada con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración empresarial.
+
+```text
+Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual Copilot Chat O365, respecto a Copilot PRO.
+```
 
 ### 0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc
 
