@@ -1,3 +1,13 @@
+### Copilot Office 365: uso básico y demostración práctica. Automatización de trabajos
+
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png?raw=true">
+
+<br clear="left">
+
+> Explicación y uso fácil de **Copilot en Office 365 (Copilot Chat), sin licencia PRO**.
+
+---
+
 ### Indice
 
 0. [Introducción](#0-introducción)
@@ -149,7 +159,7 @@ Lee el fichero AGENTS.doc adjunto y aplica para esta sesión las instrucciones a
 Lee el fichero SKILL.doc adjunto y entrega el informe resultado con el formato de informe indicado.
 ```
 
-**AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot, con Copilot Builder**
+**AGENTES: los convertimos en AGENTES persistentes en nuestro Copilot, con el asistente Agent Builder**
 
 - Sobre estos ficheros:  AGENTS.doc y SKILL.doc, podemos crear con cada uno un Agente persistente en Copilot con el asistente, dejarlo guardado y compartirlo. 
 
@@ -250,4 +260,6 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [http://www.hackingyseguridad.com/](http://www.hackingyseguridad.com/)
+
+
 
