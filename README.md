@@ -173,9 +173,9 @@ Usaremos el asistente **(Agent-Builder)** para crear agentes de forma manual;  p
 <img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/copilot/blob/main/agente.png?raw=true">
 
 
-**Agent Builder** en Microsoft 365 Copilot, que permite agentes sencillos basados en prompts y documentos.
+**Agent Builder**, con nuestra licencia actual usamos Agent Builder en Microsoft 365 Copilot, que permite agentes sencillos basados en prompts y documentos.
 
-**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de , flujos con Power Automa  requiere licencias, permidiseño más cuidadoso.
+**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de datos y flujos con Power Automate. Requiere licencias, permisos específicos y un diseño más cuidadoso.
 
 
 ### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
