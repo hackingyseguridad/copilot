@@ -77,6 +77,9 @@
 Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual de Copilot Chat O365 respecto a Copilot PRO.
 ```
 
+<img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot2.png">
+
+
 ### 0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc
 
 | # | Nombre de fichero | Descripción |
@@ -278,5 +281,6 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
+
 
 @antonio_taboada
