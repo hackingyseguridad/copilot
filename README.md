@@ -43,7 +43,7 @@
 
 ### 0. Introducción
 
-**Microsoft 365 Copilot Chat (sin licencia adicional de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
+**Microsoft 365 Copilot Chat (sin licencia PRO de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
 
 ```text
 ¿Qué modelo de IA eres?
