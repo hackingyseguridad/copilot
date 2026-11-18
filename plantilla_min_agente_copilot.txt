@@ -1,0 +1,50 @@
+==========================================================
+PLANTILLA MINIMA DE AGENTE - COPILOT CHAT (AGENT BUILDER)
+==========================================================
+Rellenar a mano y copiar/pegar cada campo en Agent Builder
+(Copilot Chat > Agentes > Nuevo agente > pestana "Configurar").
+
+
+----------------------------------------------------------
+1. NOMBRE
+----------------------------------------------------------
+[Nombre corto y claro del agente]
+
+
+
+----------------------------------------------------------
+2. DESCRIPCION
+----------------------------------------------------------
+[1-2 frases: que hace el agente y para quien]
+
+
+
+----------------------------------------------------------
+3. INSTRUCCIONES   (maximo 8000 caracteres)
+----------------------------------------------------------
+ROL
+[Eres un/a ... especializado en ...]
+
+OBJETIVO
+[Que debe conseguir el agente]
+
+TAREAS
+1. [Tarea 1]
+2. [Tarea 2]
+3. [Tarea 3]
+
+FORMATO DE RESPUESTA
+[Ej.: respuestas breves, en espanol, con listas y tablas cuando proceda]
+
+REGLAS Y LIMITES
+- [Que NO debe hacer]
+- [Si no sabe algo, debe indicarlo y no inventar]
+
+TONO
+[Profesional / cercano / tecnico ...]
+
+
+
+==========================================================
+FIN DE LA PLANTILLA
+==========================================================
