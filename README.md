@@ -1,6 +1,6 @@
 ### Copilot Chat Office 365: uso básico y demostración práctica. Automatización de trabajos
 
-<img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/copilot.png?raw=true">
+<img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot.png">
 
 <br clear="left">
 
@@ -17,10 +17,10 @@
    - [1.1 Prompts básicos](#11-prompts-básicos-analizar-extraer-informes-resúmenes)
    - [1.2 Prompts e instrucciones reutilizables](#12-prompts-e-instrucciones-reutilizables)
    - [1.3 SKILL.doc y AGENTS.doc para automatizar tareas](#13-skilldoc-y-agentsdoc-para-automatizar-tareas)
-   - [1.4 Plantilla de instrucciones para informes](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento)
-   - [1.5 Agentes ya instalados en Copilot](#15-agentes-instalados-ya-en-copilot)
+   - [1.4 Plantilla de instrucciones para obtener un informe (formato de documento)](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento)
+   - [1.5 Agentes instalados ya en Copilot](#15-agentes-instalados-ya-en-copilot)
 2. [Seguridad y revisión de resultados](#2-seguridad-y-revisión-de-resultados)
-   - [2.1 Detectar errores e información inventada](#21-detectar-posibles-errores-o-información-inventada)
+   - [2.1 Detectar posibles errores o información inventada](#21-detectar-posibles-errores-o-información-inventada)
 3. [Resumen final](#3-resumen-final)
 
 ---
@@ -83,7 +83,7 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 |---|---|---|
 | 1 | `PROMPT.txt` | Fichero de texto con los prompts (instrucciones guardadas) utilizados en el proyecto. |
 | 2 | `AGENTS.doc` | Documento con la definición/configuración de agentes (prompts o roles) para usar con Copilot. |
-| 3 | `CVE_48h_Agente.doc` | Documento con la definición/configuración de agentes (prompts o roles) para usar con Copilot. |
+| 3 | `CVE_48h_Agente.doc` | Documento con la definición del agente que lista los CVE altos y críticos publicados en las últimas 48 h. |
 | 4 | `agente_accion.docx` | Documento con la definición/configuración de agentes (prompts o roles) para usar con Copilot. |
 | 5 | `SKILL.doc` | Documento que define una «skill» (habilidad) de Copilot, orientada a la generación de informes de pentest. |
 | 6 | `cifrados.pdf` | Documento PDF sobre cifrados (algoritmos, técnicas o apuntes de criptografía). |
@@ -100,7 +100,7 @@ Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
 
 Podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual (se pueden anexar y usar un máximo de tres archivos por instrucción).
 
-Como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, y le pediremos a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, demostraremos cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándole el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
+Como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, y le pediremos a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, demostraremos cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándoles el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
 ---
 
@@ -111,7 +111,7 @@ Como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
-- Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF y .TXT.
+- Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF y TXT.
 - Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot (carpeta /Home).
 - Diferencia entre adjuntar un fichero, arrastrarlo y pegar texto en el chat.
 - Límites habituales de la licencia Copilot Chat O365: tamaño de los ficheros y número de ficheros por conversación (máximo tres).
@@ -136,28 +136,27 @@ PDF: cifrados.pdf. Analiza el informe y haz una tabla como resumen ejecutivo con
 ### 1.2 Prompts e instrucciones reutilizables
 
 - Guardar los prompts que funcionan en un fichero propio (`PROMPT.txt`) para reutilizarlos.
-- Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`...
+- Usar marcadores sustituibles: `[PDF]`, `[Word]`, `[Excel]`...
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
 📝 [PROMPTS](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
 
-Copia y reutiliza en Copilot el PROMPT:
+Copia y reutiliza en Copilot los siguientes prompts:
 
 ```text
-SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
+SKILL: este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes?
 ```
 ```text
-SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
+SKILL: este modelo de IA, ¿tiene modos de «razonamiento extendido» o thinking?
 ```
 ```text
-SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...),
-Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC),
-Scripts para explotar vulnerabilidades (Exploits) ?
+SKILL: este modelo de IA, ¿tiene habilidades (SKILLs) en: programación (Bash, Python, C, ...),
+vulnerabilidades (CVE), scripts para pruebas de concepto (POC)
+y scripts para explotar vulnerabilidades (exploits)?
 ```
 ```text
-lista las vulnerabilidades CVE criticas publicados en las ultimas 48h
+Lista las vulnerabilidades CVE críticas publicadas en las últimas 48 h.
 ```
-
 
 ### 1.3 SKILL.doc y AGENTS.doc para automatizar tareas
 
@@ -183,7 +182,7 @@ Usaremos el asistente **Agent Builder** para crear agentes de forma manual y aut
 
 2.º Crearemos con el asistente de Copilot un agente usando como plantilla `SKILL.doc` y lo llamaremos «Informe_Hacking».
 
-<img style="float:left" alt="Creación de agentes en Copilot - hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/agente.png?raw=true">
+<img style="float:left" alt="Creación de agentes en Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/agente.png">
 
 <br clear="left">
 
@@ -222,7 +221,7 @@ Con el fichero hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta p
 - Exportar el resultado a Word, PDF o PowerPoint.
 - **Demo:** generar un informe completo a partir de un fichero con esta plantilla.
 
-Seleccionamos GPT 5.6 Sol en modo razonamiento profundo, anexamos/subimos los ficheros de hallazgos y `SKILL.doc`:
+Seleccionamos GPT 5.6 Sol en modo razonamiento profundo y anexamos/subimos los ficheros de hallazgos y `SKILL.doc`:
 
 ```text
 Analiza los ficheros hallazgos.xml y hallazgos2.xml. Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera los informes finales; guárdalos en formato Word, con todas las evidencias, detalles y descripciones necesarios disponibles.
