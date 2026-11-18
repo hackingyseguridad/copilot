@@ -150,7 +150,9 @@ SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
 SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
 ```
 ```text
-SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...), Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts para explotar vulnerabilidades (Exploits) ?
+SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...),
+Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC),
+Scripts para explotar vulnerabilidades (Exploits) ?
 ```
 ```text
 lista las vulnerabilidades CVE criticas publicados en las ultimas 48h
