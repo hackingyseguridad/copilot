@@ -71,7 +71,7 @@
 9. **Imágenes y gráficos:** crear imágenes; se obtienen mejores resultados seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
 10. **Presentaciones PowerPoint:** se obtienen mejores resultados seleccionando el modelo GPT 5.6 Sol en modo pensar (razonamiento profundo).
 
-**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de una integración avanzada y generalizada (WORK) con Word, Excel, Outlook, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración de la empresa.
+**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de una integración avanzada y generalizada (Copilot - WORK) con Word, Excel, OneNote, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración de la empresa, p.ej. Outlook.
 
 ```text
 Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual de Copilot Chat O365 respecto a Copilot PRO.
