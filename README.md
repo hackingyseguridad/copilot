@@ -153,19 +153,7 @@ SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
 SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...), Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts para explotar vulnerabilidades (Exploits) ?
 ```
 
-Word.: Analiza este documento Word y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
 
-Word.: Resume el contenido de la reunión, que acabo de Descargar trascripción en "Resumen de Reuniones" en TEAMS en formato .docx
-
-Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
-
-informe.pdf: analiza y resume muy mucho este documento pdf y genera un resumen, en un parrafo breve muy breve.
-
-informe.pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para HTTPS.
-
-informe.pdf: convierte a PowerPoint en formato 4:3 (Estándar) formato tradicional y añade algun grafico que resuma explique mejor o imagen que puede hacerla mas entendible.
-
-Report: haz informe profesional de pruebas de penetración con resúmen ejecutivo, puntuación CVSS y planes de reparos, usa el fichero  
 
 
 
