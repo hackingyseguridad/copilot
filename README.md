@@ -169,9 +169,10 @@ Lista las vulnerabilidades CVE críticas publicadas en las últimas 48 h.
 
 ```text
 Lee el fichero AGENTS.doc adjunto y aplica para esta sesión las instrucciones allí descritas.
+```
+```text
 Lee el fichero SKILL.doc adjunto y entrega el informe resultante con el formato de informe indicado.
 ```
-
 ```text
 sobre el fichero hallazgos.xml , carga y usa siguiendo las directrices de SKILL.doc AGENTS.doc
 ```
