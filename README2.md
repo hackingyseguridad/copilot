@@ -13,12 +13,12 @@
 0. [Introducción](#0-introducción)
    - [0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc](#01-uso-de-archivos-de-instrucciones-agentsdoc-y-skilldoc)
 1. [Trabajar con archivos en Copilot](#1-trabajar-con-archivos-en-copilot)
-   - [1.0 Cargar ficheros desde OneDrive](#10-cargar-ficheros-desde-onedrive-paquete-office)
-   - [1.1 Prompts básicos](#11-prompts-básicos-analizar-extraer-informes-resúmenes)
+   - [1.0 Cargar ficheros desde OneDrive (paquete Office)](#10-cargar-ficheros-desde-onedrive-paquete-office)
+   - [1.1 Prompts básicos (analizar, extraer, informes, resúmenes)](#11-prompts-básicos-analizar-extraer-informes-resúmenes)
    - [1.2 Prompts e instrucciones reutilizables](#12-prompts-e-instrucciones-reutilizables)
    - [1.3 SKILL.doc y AGENTS.doc para automatizar tareas](#13-skilldoc-y-agentsdoc-para-automatizar-tareas)
-   - [1.4 Plantilla de instrucciones para obtener un informe (formato de documento)](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento)
-   - [1.5 Agentes instalados ya en Copilot](#15-agentes-instalados-ya-en-copilot)
+   - [1.4 Plantillas para crear agentes con Agent Builder (formato de documento)](#14-plantillas-para-crear-agentes-con-agent-builder-formato-de-documento)
+   - [1.5 Agentes preinstalados en Copilot Chat](#15-agentes-preinstalados-en-copilot-chat)
 2. [Seguridad y revisión de resultados](#2-seguridad-y-revisión-de-resultados)
    - [2.1 Detectar posibles errores o información inventada](#21-detectar-posibles-errores-o-información-inventada)
 3. [Resumen final](#3-resumen-final)
@@ -32,9 +32,9 @@
 | [0](#0-introducción) | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
 | [1.0](#10-cargar-ficheros-desde-onedrive-paquete-office) | Usar ficheros desde OneDrive: anexar, adjuntar, arrastrar | 5 min |
 | [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones | 7 min |
-| [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (PROMPT.txt) | 5 min |
+| [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`) | 5 min |
 | [1.3](#13-skilldoc-y-agentsdoc-para-automatizar-tareas) | Crear agentes en Copilot (automatización). Demo: crear 2 agentes | 10 min |
-| [1.4](#14-plantilla-de-instrucciones-para-obtener-un-informe-formato-de-documento) | Informe de hacking automático con SKILL.doc y agente de Copilot | 5 min |
+| [1.4](#14-plantillas-para-crear-agentes-con-agent-builder-formato-de-documento) | Plantillas para crear agentes con Agent Builder | 5 min |
 | [2](#2-seguridad-y-revisión-de-resultados) | Seguridad y revisión de resultados | 8 min |
 | [3](#3-resumen-final) | Cierre: resumen y preguntas | 5 min |
 | | **Total** | **≈ 50 min** |
@@ -71,14 +71,15 @@
 9. **Imágenes y gráficos:** crear imágenes; se obtienen mejores resultados seleccionando el modelo GPT 5.6 Sol en modo razonamiento profundo.
 10. **Presentaciones PowerPoint:** se obtienen mejores resultados seleccionando el modelo GPT 5.6 Sol en modo pensar (razonamiento profundo).
 
-**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de una integración avanzada y generalizada (Copilot - WORK) con Word, Excel, OneNote, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración de la empresa, p.ej. Outlook.
+**Limitaciones:** sin la licencia completa de Microsoft 365 Copilot PRO, no se dispone de una integración avanzada y generalizada (Copilot - WORK) con Word, Excel, OneNote, Teams y SharePoint, ni de acceso automático a toda la información corporativa. Algunas funciones dependen de la configuración de la empresa, p. ej., Outlook.
 
 ```text
 Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual de Copilot Chat O365 respecto a Copilot PRO.
 ```
 
-<img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot2.png">
+<img style="float:left" alt="Comparativa de licencias de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot2.png">
 
+<br clear="left">
 
 ### 0.1 Uso de archivos de instrucciones: AGENTS.doc y SKILL.doc
 
@@ -96,7 +97,7 @@ Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO 
 | 10 | `hallazgos2.xml` | Versión alternativa/actualizada de los hallazgos (resultados de análisis/pentest web). |
 | 11 | `informe.doc` | Documento de informe (plantilla o ejemplo de informe de seguridad/pentest). |
 
-Podremos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
+Podemos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
 
 1. `AGENTS.doc`: define instrucciones generales de trabajo para agentes de IA.
 2. `SKILL.doc`: describe habilidades, tareas y procedimientos específicos.
@@ -177,9 +178,8 @@ Lee el fichero AGENTS.doc adjunto y aplica para esta sesión las instrucciones a
 Lee el fichero SKILL.doc adjunto y entrega el informe resultante con el formato de informe indicado.
 ```
 ```text
-sobre el fichero hallazgos.xml , carga y usa siguiendo las directrices de SKILL.doc AGENTS.doc
+Sobre el fichero hallazgos.xml, carga y usa las directrices de SKILL.doc y AGENTS.doc.
 ```
-
 
 **Agentes: los convertimos en agentes persistentes en nuestro Copilot con el asistente Agent Builder**
 
@@ -195,39 +195,8 @@ Usaremos el asistente **Agent Builder** para crear agentes de forma manual y aut
 
 <br clear="left">
 
-**Agent Builder:** con nuestra licencia actual podemos usar Agent Builder en Microsoft 365 Copilot, que permite crear agentes sencillos basados en prompts y documentos.
-
-**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de datos y flujos con Power Automate. Requiere licencias, permisos específicos y un diseño más cuidadoso.
-
-### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
-
-Plantilla base reutilizable:
-
-```text
-Con el fichero hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta plantilla:
-```
-
-```markdown
-# Informe: [TÍTULO]
-
-## 1. Resumen ejecutivo
-(máx. 5 líneas)
-
-## 2. Hallazgos principales
-(lista numerada)
-
-## 3. Descripción y datos de la vulnerabilidad y cifras clave
-(tabla)
-
-## 4. Riesgos y recomendaciones
-(lista priorizada)
-
-## 5. Próximos pasos
-(responsable y fecha)
-```
-
-- Pedir a Copilot que rellene esta plantilla con el contenido del fichero cargado.
-- Exportar el resultado a Word, PDF o PowerPoint.
+- Importamos los ficheros con Agent Builder y creamos los agentes.
+- Exportamos el resultado a Word, PDF o PowerPoint.
 - **Demo:** generar un informe completo a partir de un fichero con esta plantilla.
 
 Seleccionamos GPT 5.6 Sol en modo razonamiento profundo y anexamos/subimos los ficheros de hallazgos y `SKILL.doc`:
@@ -236,7 +205,23 @@ Seleccionamos GPT 5.6 Sol en modo razonamiento profundo y anexamos/subimos los f
 Analiza los ficheros hallazgos.xml y hallazgos2.xml. Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera los informes finales; guárdalos en formato Word, con todas las evidencias, detalles y descripciones necesarios disponibles.
 ```
 
-### 1.5 Agentes instalados ya en Copilot
+**Agent Builder:** con nuestra licencia actual podemos usar Agent Builder en Microsoft 365 Copilot, que permite crear agentes sencillos basados en prompts y documentos.
+
+**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de datos y flujos con Power Automate. Requiere licencias, permisos específicos y un diseño más cuidadoso.
+
+### 1.4 Plantillas para crear agentes con Agent Builder (formato de documento)
+
+Plantillas base reutilizables:
+
+📝 [Plantilla_Agente](https://github.com/hackingyseguridad/copilot/blob/main/plantilla_agente_copilot.txt)
+
+📝 [Plantilla_Minima_Agente](https://github.com/hackingyseguridad/copilot/blob/main/plantilla_min_agente_copilot.txt)
+
+Otra forma fácil de crear agentes es importarlos desde una plantilla en el asistente Agent Builder de Copilot, con un formato de documento donde detallamos las instrucciones y premisas del agente.
+
+Rellenamos la plantilla en un fichero `.txt` o `.doc` y la importamos desde Copilot → Agentes → Crear agente → importar el fichero con la plantilla cumplimentada, para crear el agente con el asistente Agent Builder.
+
+### 1.5 Agentes preinstalados en Copilot Chat
 
 Agentes declarativos especializados, disponibles en la licencia actual de Copilot:
 
@@ -281,6 +266,5 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
-
 
 @antonio_taboada
