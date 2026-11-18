@@ -143,9 +143,35 @@ PDF: cifrados.pdf. Analiza el informe y haz una tabla como resumen ejecutivo con
 
 [PROMPT.txt](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
 
-```text
 Copia y reutiliza en Copilot el PROMPT:
+
+```text
+SKILL	este modelo de IA, ¿qué tipo de habilidades (SKILLs) tienes ?
 ```
+```text
+SKILL	este modelo de IA tiene modos de "razonamiento extendido" o thinking ?
+```
+
+SKILL	este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...), Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts para explotar vulnerabilidades (Exploits) ?
+
+Vuln:  lista las vulnerabilidades CVE criticas publicados en las ultimas 48h
+
+Word.: Analiza este documento y genera un resumen ejecutivo, en un parrafo breve muy breve y usa para ello lenguaje profesional orientado a dirección.
+
+Word.: Resume el contenido de la reunión, que acabo de Descargar trascripción en "Resumen de Reuniones" en TEAMS en formato .docx
+
+Excel: filtra las vulnerabilidadespara SSH en 026 de gravedad alta o critica; Genera una tabla de dos columnas, una con el CVE y la otra columna con la descripción.
+
+pdf: analiza y resume muy mucho este documento pdf y genera un resumen, en un parrafo breve muy breve.
+
+pdf: analiza el informe y haz una tabla como resumen ejecutivo con los protocolos y cifrados recomendados / seguros , para HTTPS.
+
+pdf: convierte a PowerPoint en formato 4:3 (Estándar) formato tradicional y añade algun grafico que resuma explique mejor o imagen que puede hacerla mas entendible.
+
+Report: informe profesional de pruebas de penetración con resúmen ejecutivo, puntuación CVSS y planes de reparos, usa el fichero 
+
+
+
 
 ### 1.3 SKILL.doc y AGENTS.doc para automatizar tareas
 
