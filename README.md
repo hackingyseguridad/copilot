@@ -214,8 +214,9 @@ Analiza los ficheros hallazgos.xml y hallazgos2.xml. Lee y usa las especificacio
 Plantilla base reutilizable:
 
 📝 [Plantilla_Agente](https://github.com/hackingyseguridad/copilot/blob/main/plantilla_agente_copilot.txt)
+📝 [Plantilla_Minima_Agente](https://github.com/hackingyseguridad/copilot/blob/main/plantilla_min_agente_copilot.txt)
 
-rellenamos la plantilla en un fichero .TXT o Doc. e importamos desde Copilot = Agente = Crear Agente = importamos fichero con plantilla cumplimentada para crear Agente
+rellenamos la plantilla en un fichero .TXT o Doc. e importamos desde Copilot = Agente = Crear Agente = importamos fichero con plantilla cumplimentada para crear Agente con el asistente Agent Builder
 
 ### 1.5 Agentes instalados ya en Copilot
 
