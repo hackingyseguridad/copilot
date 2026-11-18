@@ -172,6 +172,11 @@ Lee el fichero AGENTS.doc adjunto y aplica para esta sesión las instrucciones a
 Lee el fichero SKILL.doc adjunto y entrega el informe resultante con el formato de informe indicado.
 ```
 
+```text
+sobre el fichero hallazgos.xml , carga y usa SKILL.doc AGENTS.doc
+```
+
+
 **Agentes: los convertimos en agentes persistentes en nuestro Copilot con el asistente Agent Builder**
 
 - Con los ficheros `AGENTS.doc` y `SKILL.doc` podemos crear, con cada uno, un agente persistente en Copilot mediante el asistente, dejarlo guardado y compartirlo.
