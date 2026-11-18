@@ -173,7 +173,7 @@ Lee el fichero SKILL.doc adjunto y entrega el informe resultante con el formato 
 ```
 
 ```text
-sobre el fichero hallazgos.xml , carga y usa SKILL.doc AGENTS.doc
+sobre el fichero hallazgos.xml , carga y usa siguiendo las directrices de SKILL.doc AGENTS.doc
 ```
 
 
