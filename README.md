@@ -139,6 +139,8 @@ PDF: cifrados.pdf. Analiza el informe y haz una tabla como resumen ejecutivo con
 - Usar marcadores sustituibles: `[pdf]`, `[Word]`, `[Excel]`...
 - Opciones de reutilización en Copilot: biblioteca de prompts y copiar/pegar desde fichero.
 
+📝 [PROMPTS](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
+
 [PROMPT.txt](https://github.com/hackingyseguridad/copilot/blob/main/PROMPT.txt)
 
 ```text
