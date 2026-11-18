@@ -1,0 +1,96 @@
+==========================================================
+PLANTILLA MINIMA DE AGENTE - COPILOT CHAT (AGENT BUILDER)
+==========================================================
+Rellenar a mano cada campo y copiar/pegar en Agent Builder
+(Copilot Chat > Agentes > Nuevo agente > pestaña "Configurar").
+Borrar las lineas entre corchetes [ ] una vez rellenadas.
+
+
+----------------------------------------------------------
+1. NOMBRE
+----------------------------------------------------------
+[Nombre corto y claro del agente]
+
+
+
+----------------------------------------------------------
+2. DESCRIPCION
+----------------------------------------------------------
+[1-2 frases: que hace el agente y para quien]
+
+
+
+----------------------------------------------------------
+3. INSTRUCCIONES   (maximo 8000 caracteres)
+----------------------------------------------------------
+ROL
+[Eres un/a ... especializado en ...]
+
+OBJETIVO
+[Que debe conseguir el agente]
+
+TAREAS
+1. [Tarea 1]
+2. [Tarea 2]
+3. [Tarea 3]
+
+FORMATO DE RESPUESTA
+[Ej.: respuestas breves, en espanol, con listas y tablas cuando proceda]
+
+REGLAS Y LIMITES
+- [Que NO debe hacer]
+- [Si no sabe algo, debe indicarlo y no inventar]
+- [Usar solo las fuentes de conocimiento indicadas]
+
+TONO
+[Profesional / cercano / tecnico ...]
+
+
+
+----------------------------------------------------------
+4. INICIADORES DE CONVERSACION  (preguntas de ejemplo)
+----------------------------------------------------------
+Titulo 1: [Texto corto]
+Mensaje 1: [Prompt completo que se envia al pulsarlo]
+
+Titulo 2: [Texto corto]
+Mensaje 2: [Prompt completo]
+
+Titulo 3: [Texto corto]
+Mensaje 3: [Prompt completo]
+
+
+
+----------------------------------------------------------
+5. CONOCIMIENTO  (fuentes del agente, opcional)
+----------------------------------------------------------
+Sitios web (URL publicas):
+- [https://www.hackingyseguridad.com]
+
+SharePoint / OneDrive (enlaces):
+- [https://...]
+
+Archivos a subir:
+- [nombre_archivo.docx / .pdf / .pptx / .xlsx / .txt]
+
+
+
+----------------------------------------------------------
+6. CAPACIDADES  (marcar con X las que se activen)
+----------------------------------------------------------
+[X] Busqueda web
+[X] Interprete de codigo
+[ ] Generador de imagenes
+
+
+
+----------------------------------------------------------
+7. ICONO  (opcional)
+----------------------------------------------------------
+[Archivo de imagen o descripcion]
+
+
+
+==========================================================
+FIN DE LA PLANTILLA
+==========================================================
