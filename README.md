@@ -195,38 +195,7 @@ Usaremos el asistente **Agent Builder** para crear agentes de forma manual y aut
 
 <br clear="left">
 
-**Agent Builder:** con nuestra licencia actual podemos usar Agent Builder en Microsoft 365 Copilot, que permite crear agentes sencillos basados en prompts y documentos.
-
-**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de datos y flujos con Power Automate. Requiere licencias, permisos específicos y un diseño más cuidadoso.
-
-### 1.4 Plantilla de instrucciones para obtener un informe (formato de documento)
-
-Plantilla base reutilizable:
-
-```text
-Con el fichero hallazgos.xml y sobre cada caso de vulnerabilidad, rellena esta plantilla:
-```
-
-```markdown
-# Informe: [TÍTULO]
-
-## 1. Resumen ejecutivo
-(máx. 5 líneas)
-
-## 2. Hallazgos principales
-(lista numerada)
-
-## 3. Descripción y datos de la vulnerabilidad y cifras clave
-(tabla)
-
-## 4. Riesgos y recomendaciones
-(lista priorizada)
-
-## 5. Próximos pasos
-(responsable y fecha)
-```
-
-- Pedir a Copilot que rellene esta plantilla con el contenido del fichero cargado.
+- Importamos con Agent Builder, y creamos Agentes 
 - Exportar el resultado a Word, PDF o PowerPoint.
 - **Demo:** generar un informe completo a partir de un fichero con esta plantilla.
 
@@ -235,6 +204,20 @@ Seleccionamos GPT 5.6 Sol en modo razonamiento profundo y anexamos/subimos los f
 ```text
 Analiza los ficheros hallazgos.xml y hallazgos2.xml. Lee y usa las especificaciones y habilidades dadas en el fichero SKILL.doc y genera los informes finales; guárdalos en formato Word, con todas las evidencias, detalles y descripciones necesarios disponibles.
 ```
+
+**Agent Builder:** con nuestra licencia actual podemos usar Agent Builder en Microsoft 365 Copilot, que permite crear agentes sencillos basados en prompts y documentos.
+
+**Copilot Studio**, en cambio, permite integrar APIs, MCP, bases de datos y flujos con Power Automate. Requiere licencias, permisos específicos y un diseño más cuidadoso.
+
+### 1.4 Plantilla para crear Agentes, con Builder  (formato de documento)
+
+Plantilla base reutilizable:
+
+📝 [Plantilla_Agente](https://github.com/hackingyseguridad/copilot/blob/main/.txt)
+
+
+
+
 
 ### 1.5 Agentes instalados ya en Copilot
 
