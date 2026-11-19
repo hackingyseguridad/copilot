@@ -1,11 +1,10 @@
-
-<p><img alt="hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/banner.png"></p>
+<p align="center"><img alt="Banner de hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/banner.png"></p>
 
 ---
 
-### Copilot Chat Office 365: uso básico y demostración práctica. Automatización de trabajos
+### Copilot Chat de Office 365: uso básico y demostración práctica. Automatización de tareas
 
-<img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot.png">
+<img align="left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot.png">
 
 <br clear="left">
 
@@ -36,8 +35,8 @@
 |---|---|---|
 | [0](#0-introducción) | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
 | [1.0](#10-cargar-ficheros-desde-onedrive-paquete-office) | Usar ficheros desde OneDrive: anexar, adjuntar, arrastrar | 5 min |
-| [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones sobre ficheros: .PDF .xls .doc .txt | 7 min |
-| [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`) , instrucciones guardadas, análisis de ficheros en OneDrive | 5 min |
+| [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas e instrucciones sobre ficheros: .PDF, .xls, .doc, .txt | 7 min |
+| [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`), instrucciones guardadas y análisis de ficheros en OneDrive | 5 min |
 | [1.3](#13-skilldoc-y-agentsdoc-para-automatizar-tareas) | Crear agentes simples en Copilot Agent Builder (automatización). Demo: crear 2 agentes | 10 min |
 | [1.4](#14-plantillas-para-crear-agentes-con-agent-builder-formato-de-documento) | Plantillas para crear agentes potentes con Agent Builder | 5 min |
 | [2](#2-seguridad-y-revisión-de-resultados) | Seguridad y revisión de resultados | 8 min |
@@ -48,7 +47,7 @@
 
 ### 0. Introducción
 
-**Microsoft 365 Copilot Chat (sin licencia PRO de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa:
+**Microsoft 365 Copilot Chat (sin licencia PRO de Microsoft 365 Copilot)** permite utilizar inteligencia artificial en tareas habituales de oficina, siempre dentro de las funcionalidades habilitadas por la empresa. Para comprobar qué modelo estás utilizando, pregunta:
 
 ```text
 ¿Qué modelo de IA eres?
@@ -82,7 +81,7 @@
 Haz una tabla comparativa ejecutiva de las diferencias principales de lo que NO permite la licencia corporativa actual de Copilot Chat O365 respecto a Copilot PRO.
 ```
 
-<img style="float:left" alt="Comparativa de licencias de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot2.png">
+<img align="left" alt="Comparativa de licencias de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot2.png">
 
 <br clear="left">
 
@@ -116,7 +115,7 @@ Como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 ### 1. Trabajar con archivos en Copilot
 
 - **SharePoint:** almacenamiento en la nube para compartir datos en la empresa.
-- **OneDrive:** almacenamiento en la nube para guardar datos personales.
+- **OneDrive:** almacenamiento en la nube para guardar datos personales; usaremos la carpeta /Home.
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
@@ -196,7 +195,7 @@ Usaremos el asistente **Agent Builder** para crear agentes de forma manual y aut
 
 2.º Crearemos con el asistente de Copilot un agente usando como plantilla `SKILL.doc` y lo llamaremos «Informe_Hacking».
 
-<img style="float:left" alt="Creación de agentes en Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/agente.png">
+<img align="left" alt="Creación de agentes en Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/agente.png">
 
 <br clear="left">
 
@@ -270,11 +269,10 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 
 ---
 
-[https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
+ [https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
 
+<img align="left" alt="Autor - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/autor.png">
 
-<img style="float:left" alt="Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/autor.png">
+<br clear="left">
 
-
-@antonio_taboada
-
+[@antonio_taboada](https://x.com/antonio_taboada)
