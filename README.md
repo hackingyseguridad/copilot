@@ -116,7 +116,7 @@ Como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 ### 1. Trabajar con archivos en Copilot
 
 - **SharePoint:** almacenamiento en la nube para compartir datos en la empresa.
-- **OneDrive:** almacenamiento en la nube para guardar datos personales.
+- **OneDrive:** almacenamiento en la nube para guardar datos personales; usaremos la caperta /my
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
