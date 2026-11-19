@@ -3,8 +3,6 @@
 
 ---
 
-#
-
 ### Copilot Chat Office 365: uso básico y demostración práctica. Automatización de trabajos
 
 <img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot.png">
