@@ -1,4 +1,4 @@
-html
+
 <p><img alt="hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/banner.png"></p>
 
 ---
