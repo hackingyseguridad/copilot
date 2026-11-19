@@ -1,4 +1,5 @@
-<img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/banner.png" style="margin-bottom: 20px;">
+html
+<p><img alt="hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/banner.png"></p>
 
 ---
 
