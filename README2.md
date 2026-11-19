@@ -1,5 +1,6 @@
 <img align="left" alt="hackingyseguridad.com" src="https://github.com/hackingyseguridad/copilot/blob/main/banner.png" style="margin-bottom: 20px;">
 
+---
 #
 
 ### Copilot Chat Office 365: uso básico y demostración práctica. Automatización de trabajos
