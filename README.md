@@ -1,3 +1,8 @@
+
+<p><img alt="hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/banner.png"></p>
+
+---
+
 ### Copilot Chat Office 365: uso básico y demostración práctica. Automatización de trabajos
 
 <img style="float:left" alt="Logotipo de Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/copilot.png">
@@ -34,8 +39,8 @@
 | [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones | 7 min |
 | [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`) | 5 min |
 | [1.3](#13-skilldoc-y-agentsdoc-para-automatizar-tareas) | Crear agentes en Copilot (automatización). Demo: crear 2 agentes | 10 min |
-| [1.4](#14-plantillas-para-crear-agentes-con-agent-builder-formato-de-documento) | Plantillas para crear agentes con Agent Builder. Demo: crear 3 agentes | 10 min |
-| [2](#2-seguridad-y-revisión-de-resultados) | Seguridad y revisión de resultados | 3 min |
+| [1.4](#14-plantillas-para-crear-agentes-con-agent-builder-formato-de-documento) | Plantillas para crear agentes con Agent Builder | 5 min |
+| [2](#2-seguridad-y-revisión-de-resultados) | Seguridad y revisión de resultados | 8 min |
 | [3](#3-resumen-final) | Cierre: resumen y preguntas | 5 min |
 | | **Total** | **≈ 50 min** |
 
@@ -266,4 +271,10 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 ---
 
 [https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
+
+
+<img style="float:left" alt="Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/autor.png">
+
+
+@antonio_taboada
 
