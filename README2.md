@@ -267,4 +267,8 @@ Si algo no aparece en el documento, dilo explícitamente en lugar de suponerlo.
 
 [https://www.hackingyseguridad.com/](https://www.hackingyseguridad.com/)
 
+
+<img style="float:left" alt="Copilot - hackingyseguridad.com" src="https://raw.githubusercontent.com/hackingyseguridad/copilot/main/autor.png">
+
+
 @antonio_taboada
