@@ -107,7 +107,7 @@ Podemos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
 1. `AGENTS.doc`: define instrucciones generales de trabajo para agentes de IA.
 2. `SKILL.doc`: describe habilidades, tareas y procedimientos específicos.
 
-Podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual (se pueden anexar y usar un máximo de tres archivos por instrucción).
+- como un "Agente" o una "instrucción de trabajo", podemos adjuntar los como documentos como referencia e indicarle que siga sus instrucciones en la sesión actual (se pueden anexar y usar un máximo de tres archivos por instrucción).
 
 Como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, y le pediremos a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, demostraremos cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándoles el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
