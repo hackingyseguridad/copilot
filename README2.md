@@ -120,11 +120,9 @@ como demostración práctica, cargaremos un archivo Excel con datos y un fichero
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
-- Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, TXT..
-- Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot (carpeta /Home o /My).
-- Diferencia entre adjuntar un fichero, arrastrarlo y pegar texto en el chat.
-- Límites habituales de la licencia Copilot Chat O365: tamaño de los ficheros y número de ficheros por conversación (máximo tres).
-- **Demo:** cargar un documento de cada tipo, p. ej., un Word y un Excel de ejemplo.
+- Como ficheros mas compatibles con Copilotr: Word, Excel, PowerPoint, PDF, TXT..
+- Podemos usar: la opcion de File Upload, adjuntar, arrastrar un fichero a OneDrive, pegar texto, .. para trabajar sobre el en Copilot (carpeta /My).
+- Límites habituales de la licencia Copilot Chat O365: tamaño de los ficheros 500 Mb y máxima tres, el número de ficheros por conversación.
 
 ### 1.1 Prompts básicos (analizar, extraer, informes, resúmenes)
 
