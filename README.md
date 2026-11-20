@@ -34,7 +34,7 @@
 
 | Bloque | Contenido | Tiempo |
 |---|---|---|
-| [0](#0-introducción) | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
+| [0](#0-introducción) | Qué es Copilot Chat, sin licencia PRO y qué puede hacer | 5 min |
 | [1.0](#10-cargar-ficheros-desde-onedrive-paquete-office) | Usar ficheros desde OneDrive: anexar, adjuntar, arrastrar | 5 min |
 | [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones sobre ficheros: .PDF .xls .doc .txt | 7 min |
 | [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`) , instrucciones guardadas, análisis de ficheros en OneDrive | 5 min |
