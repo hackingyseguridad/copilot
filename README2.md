@@ -34,7 +34,7 @@
 
 | Bloque | Contenido | Tiempo |
 |---|---|---|
-| [0](#0-introducción) | Qué es Copilot sin licencia PRO y qué puede hacer | 5 min |
+| [0](#0-introducción) | Qué es Copilot Chat, sin licencia PRO y qué puede hacer | 5 min |
 | [1.0](#10-cargar-ficheros-desde-onedrive-paquete-office) | Usar ficheros desde OneDrive: anexar, adjuntar, arrastrar | 5 min |
 | [1.1](#11-prompts-básicos-analizar-extraer-informes-resúmenes) | Prompts básicos, consultas, instrucciones sobre ficheros: .PDF .xls .doc .txt | 7 min |
 | [1.2](#12-prompts-e-instrucciones-reutilizables) | Prompts reutilizables (`PROMPT.txt`) , instrucciones guardadas, análisis de ficheros en OneDrive | 5 min |
@@ -107,21 +107,21 @@ Podemos utilizar ficheros de instrucciones en Microsoft 365 Copilot Chat:
 1. `AGENTS.doc`: define instrucciones generales de trabajo para agentes de IA.
 2. `SKILL.doc`: describe habilidades, tareas y procedimientos específicos.
 
-Podemos adjuntarlos como documentos de referencia e indicarle que siga sus instrucciones en la sesión actual (se pueden anexar y usar un máximo de tres archivos por instrucción).
+como un "Agente" o una "instrucción de trabajo", podemos adjuntar los  documentos como referencia e indicarle que los cargue y siga sus instrucciones escritas internamente en la sesión actual (Para la licencia Copilot Chat, se pueden anexar y usar un **máximo de tres archivos por instrucción**).
 
-Como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, y le pediremos a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, demostraremos cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándoles el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
+como demostración práctica, cargaremos un archivo Excel con datos y un fichero `AGENTS.doc` con las especificaciones de trabajo, y le pediremos a Copilot: «Analiza el Excel siguiendo las instrucciones de AGENTS.doc y genera un informe con la estructura, los criterios y el formato especificados». De esta forma, demostraremos cómo utilizar instrucciones reutilizables para automatizar parcialmente tareas de análisis y generación de informes, sacándoles el máximo partido sin necesidad de una licencia adicional de Copilot, siempre que la configuración de la empresa permita adjuntar estos archivos.
 
 ---
 
 ### 1. Trabajar con archivos en Copilot
 
-- **SharePoint:** almacenamiento en la nube para compartir datos en la empresa.
-- **OneDrive:** almacenamiento en la nube para guardar datos personales; usaremos la caperta /my
+- **SharePoint:** es para almacenamiento en la nube para compartir datos en la empresa.
+- **OneDrive:** es para almacenamiento en la nube para guardar datos personales "ONE"; Para **poder trabajar sin problemas con ficheros en Copilot, anexaremos, subiremos, arrastraremos los ficheros y usaremos la caperta /my de OneDrive.**
 
 ### 1.0 Cargar ficheros desde OneDrive (paquete Office)
 
-- Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF y TXT.
-- Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot (carpeta /Home).
+- Qué formatos se pueden usar: Word, Excel, PowerPoint, PDF, TXT..
+- Cómo adjuntar un fichero desde OneDrive a la conversación de Copilot (carpeta /Home o /My).
 - Diferencia entre adjuntar un fichero, arrastrarlo y pegar texto en el chat.
 - Límites habituales de la licencia Copilot Chat O365: tamaño de los ficheros y número de ficheros por conversación (máximo tres).
 - **Demo:** cargar un documento de cada tipo, p. ej., un Word y un Excel de ejemplo.
